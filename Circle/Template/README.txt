@@ -3,7 +3,7 @@ File Name: README.txt
 Purpose: How to run this program
 Language: C++ and Microsoft Compiler
 Platform: Microsoft Visual Studio 2015 Community Version
-Project: yeo.k_CS200_5
+Project: Circle
 Author: Kacey Lei Yeo, yeo.k
 Creation date: 03/20/2017
 - End Header --------------------------------------------------------*/
