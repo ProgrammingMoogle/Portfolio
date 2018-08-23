@@ -1,0 +1,19 @@
+Key - EnemyDoor3Wide
+xScale=3
+yScale=1
+xOffset=0
+yOffset=0
+health=20
+stationary=true
+following=false
+loop=false
+speed=1
+fires=false
+firesAtPlayer=false
+firingDirection=(0,0)
+fireRate=0.5
+bulletSpeed=5
+,
+NOTE: Offsets for pacing enemies
+(0,0)
+,

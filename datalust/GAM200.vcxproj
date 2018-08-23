@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{444C6C1A-E6C5-36B7-AD01-1A8EC1D388D5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>GAM200</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)build\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)GAM200.dir\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GAM200</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)build\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)GAM200.dir\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GAM200</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\glew-2.1.0\include;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\glm-0.9.9-a1;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\SFML-2.4.2\include;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\lua\src;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\luabind;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\boost\include;D:\Users\Sam\Desktop\wasd\datalust\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\glew-2.1.0\include;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\glm-0.9.9-a1;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\SFML-2.4.2\include;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\lua\src;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\luabind;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\boost\include;D:\Users\Sam\Desktop\wasd\datalust\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>xcopy /Y /C lib\$(Configuration)\$(Platform)\*.dll build\$(Configuration)\
+xcopy /Y /C /S /I data\* build\$(Configuration)\data</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;luabind.lib;lua.lib;glew32.lib;opengl32.lib;glu32.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\$(Configuration)\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(ProjectDir)src/$(Configuration)/$(TargetName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\glew-2.1.0\include;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\glm-0.9.9-a1;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\SFML-2.4.2\include;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\lua\src;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\luabind;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\boost\include;D:\Users\Sam\Desktop\wasd\datalust\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\glew-2.1.0\include;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\glm-0.9.9-a1;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\SFML-2.4.2\include;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\lua\src;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\luabind;D:\Users\Sam\Desktop\wasd\datalust\src\3rdparty\boost\include;D:\Users\Sam\Desktop\wasd\datalust\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>xcopy /Y /C lib\$(Configuration)\$(Platform)\*.dll build\$(Configuration)\
+xcopy /Y /C /S /I data\* build\$(Configuration)\data</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>fmod_vc.lib;luabind.lib;lua.lib;glew32.lib;opengl32.lib;glu32.lib;sfml-window.lib;sfml-system.lib;sfml-main.lib;sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\$(Configuration)\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(ProjectDir)src/$(Configuration)/$(TargetName).lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Audio\MusicComponent.cpp" />
+    <ClCompile Include="src\Behaviors\BoundryBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\BulletBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\CameraBehavior.cpp" />
+    <ClCompile Include="src\Audio\AudioTest.cpp" />
+    <ClCompile Include="src\Behaviors\DelayedDestructionBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\EnemyBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\EnemyBullet.cpp" />
+    <ClCompile Include="src\Behaviors\EnemyChaseBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\EnemyHealthBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\EnemyPaceBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\FadeOut.cpp" />
+    <ClCompile Include="src\Behaviors\HoleBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\HUDBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\MenuBehaviors.cpp" />
+    <ClCompile Include="src\Behaviors\ParticleFadeout.cpp" />
+    <ClCompile Include="src\Behaviors\PlatformBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\Player1Behavior.cpp" />
+    <ClCompile Include="src\Behaviors\PunchBehaviors.cpp" />
+    <ClCompile Include="src\Cheats\CheatOptions.cpp" />
+    <ClCompile Include="src\CoinBehavior.cpp" />
+    <ClCompile Include="src\DoorTextComponent.cpp" />
+    <ClCompile Include="src\EnemyDoorBehavior.cpp" />
+    <ClCompile Include="src\Engine\Engine.cpp" />
+    <ClCompile Include="src\GameObject\GameObject.cpp" />
+    <ClCompile Include="src\GameObject\GameObjectManager.cpp" />
+    <Text Include="src\GameObject\game_object_timpl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Text>
+    <ClCompile Include="src\GameObject\ObjectFactory.cpp" />
+    <ClCompile Include="src\GameObject\ObjectFactory_timpl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\SlotMap.cpp" />
+    <ClCompile Include="src\GameStateManager\GameStateManager.cpp" />
+    <ClCompile Include="src\GameStates\AnimationState.cpp" />
+    <ClCompile Include="src\GameStates\DemoState.cpp" />
+    <ClCompile Include="src\GameStates\GameState.cpp" />
+    <ClCompile Include="src\GameStates\StubState.cpp" />
+    <ClCompile Include="src\GoalBehavior.cpp" />
+    <ClCompile Include="src\Graphics\AnimationController.cpp" />
+    <ClCompile Include="src\Graphics\Background.cpp" />
+    <ClCompile Include="src\Graphics\Bloom.cpp" />
+    <ClCompile Include="src\Graphics\Blur.cpp" />
+    <ClCompile Include="src\Graphics\BrightFilter.cpp" />
+    <ClCompile Include="src\Graphics\Camera.cpp" />
+    <ClCompile Include="src\Graphics\ColliderSprite.cpp" />
+    <ClCompile Include="src\Graphics\ColorFade.cpp" />
+    <ClCompile Include="src\Graphics\FrameBuffer.cpp" />
+    <ClCompile Include="src\Graphics\GraphicBase.cpp" />
+    <ClCompile Include="src\Graphics\Graphics.cpp" />
+    <ClCompile Include="src\Graphics\Mesh.cpp" />
+    <ClCompile Include="src\Graphics\ParticleGraphic.cpp" />
+    <ClCompile Include="src\Graphics\ParticleSystem.cpp" />
+    <ClCompile Include="src\Graphics\Renderer.cpp" />
+    <ClCompile Include="src\Graphics\Shader.cpp" />
+    <ClCompile Include="src\Graphics\Sprite.cpp" />
+    <ClCompile Include="src\Graphics\TextSprite.cpp" />
+    <ClCompile Include="src\Graphics\Texture.cpp" />
+    <ClCompile Include="src\Graphics\Window.cpp" />
+    <ClCompile Include="src\HealthComponent.cpp" />
+    <ClCompile Include="src\HealthPickupComponent.cpp" />
+    <ClCompile Include="src\ImGui\imgui.cpp" />
+    <ClCompile Include="src\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="src\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="src\Input\Input.cpp" />
+    <ClCompile Include="src\Input\InputTest.cpp" />
+    <ClCompile Include="src\jsoncpp.cpp" />
+    <ClCompile Include="src\Menus\MenuComponent.cpp" />
+    <ClCompile Include="src\Messaging\Messaging.cpp" />
+    <ClCompile Include="src\Messaging\MessagingTest.cpp" />
+    <ClCompile Include="src\ParticleAnimator.cpp" />
+    <ClCompile Include="src\Physics\BoundArea.cpp" />
+    <ClCompile Include="src\Physics\Colliders.cpp" />
+    <ClCompile Include="src\Physics\CollisionDetect.cpp" />
+    <ClCompile Include="src\Physics\ContactResolver.cpp" />
+    <ClCompile Include="src\Physics\ForceEmitter.cpp" />
+    <ClCompile Include="src\Physics\ForceGenerator.cpp" />
+    <ClCompile Include="src\Physics\ForceRegistry.cpp" />
+    <ClCompile Include="src\Physics\Particle.cpp" />
+    <ClCompile Include="src\Physics\ParticleEmitter.cpp" />
+    <ClCompile Include="src\Physics\Physics.cpp" />
+    <ClCompile Include="src\Physics\RigidBody.cpp" />
+    <ClCompile Include="src\Physics\stub.cpp" />
+    <ClCompile Include="src\RoomSwitchBehavior.cpp" />
+    <ClCompile Include="src\RSwitchComponent.cpp" />
+    <ClCompile Include="src\TemplateLevelCreator\MapTemplate.cpp" />
+    <ClCompile Include="src\TemplateLevelCreator\TemplateLevel.cpp" />
+    <ClCompile Include="src\Trace\FileSystem.cpp" />
+    <ClCompile Include="src\Trace\Trace.cpp" />
+    <ClCompile Include="src\Transform\Transform.cpp" />
+    <ClCompile Include="src\Util\Util.cpp" />
+    <ClCompile Include="src\Audio\Audio.cpp" />
+    <ClCompile Include="src\Behaviors\Behaviors.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Audio\MusicComponent.hpp" />
+    <ClInclude Include="src\Behaviors\BoundryBehavior.hpp" />
+    <ClInclude Include="src\Behaviors\BulletBehavior.h" />
+    <ClInclude Include="src\Behaviors\CameraBehavior.hpp" />
+    <ClInclude Include="src\Behaviors\DelayedDestructionBehavior.hpp" />
+    <ClInclude Include="src\Behaviors\EnemyBehavior.hpp" />
+    <ClInclude Include="src\Behaviors\EnemyBullet.hpp" />
+    <ClInclude Include="src\Behaviors\EnemyChaseBehavior.h" />
+    <ClInclude Include="src\Behaviors\EnemyHealthBehavior.h" />
+    <ClInclude Include="src\Behaviors\EnemyPaceBehavior.h" />
+    <ClInclude Include="src\Behaviors\FadeOut.hpp" />
+    <ClInclude Include="src\Behaviors\HoleBehavior.hpp" />
+    <ClInclude Include="src\Behaviors\HUDBehavior.hpp" />
+    <ClInclude Include="src\Behaviors\MenuBehaviors.hpp" />
+    <ClInclude Include="src\Behaviors\ParticleFadeout.hpp" />
+    <ClInclude Include="src\Behaviors\PlatformBehavior.hpp" />
+    <ClInclude Include="src\Behaviors\Player1Behavior.hpp" />
+    <ClInclude Include="src\Behaviors\PunchBehaviors.hpp" />
+    <ClInclude Include="src\BulletType.h" />
+    <ClInclude Include="src\Cheats\CheatOptions.hpp" />
+    <ClInclude Include="src\CoinBehavior.h" />
+    <ClInclude Include="src\DoorTextComponent.h" />
+    <ClInclude Include="src\EnemyDoorBehavior.h" />
+    <ClInclude Include="src\GameStates\AnimationState.h" />
+    <ClInclude Include="src\GoalBehavior.h" />
+    <ClInclude Include="src\Graphics\Bloom.hpp" />
+    <ClInclude Include="src\Graphics\Blur.hpp" />
+    <ClInclude Include="src\Graphics\BrightFilter.hpp" />
+    <ClInclude Include="src\Graphics\ColliderSprite.hpp" />
+    <ClInclude Include="src\Graphics\ColorFade.hpp" />
+    <ClInclude Include="src\Graphics\FrameBuffer.hpp" />
+    <ClInclude Include="src\Graphics\GraphicsConstants.hpp" />
+    <ClInclude Include="src\Graphics\ParticleAnimator.hpp" />
+    <ClInclude Include="src\Graphics\ParticleGraphic.hpp" />
+    <ClInclude Include="src\Graphics\PostProcessing.hpp" />
+    <ClInclude Include="src\Graphics\TextSprite.hpp" />
+    <ClInclude Include="src\HealthComponent.h" />
+    <ClInclude Include="src\HealthPickupComponent.h" />
+    <ClInclude Include="src\ImGui\imconfig.h" />
+    <ClInclude Include="src\ImGui\imgui.h" />
+    <ClInclude Include="src\ImGui\imgui_internal.h" />
+    <ClInclude Include="src\ImGui\stb_rect_pack.h" />
+    <ClInclude Include="src\ImGui\stb_textedit.h" />
+    <ClInclude Include="src\ImGui\stb_truetype.h" />
+    <ClInclude Include="src\Graphics\Renderer.hpp" />
+    <ClInclude Include="src\Audio\Audio.hpp" />
+    <ClInclude Include="src\Audio\AudioTest.hpp" />
+    <ClInclude Include="src\Behaviors\Behaviors.hpp" />
+    <ClInclude Include="src\Engine\Engine.h" />
+    <ClInclude Include="src\Engine\System.h" />
+    <ClInclude Include="src\GameObject\Component.h" />
+    <ClInclude Include="src\GameObject\GameObject.h" />
+    <ClInclude Include="src\GameObject\GameObjectManager.h" />
+    <ClInclude Include="src\GameObject\ObjectFactory.h" />
+    <ClInclude Include="src\GameObject\SlotMap.h" />
+    <ClInclude Include="src\GameStateManager\GameStateManager.h" />
+    <ClInclude Include="src\GameStates\DemoState.h" />
+    <ClInclude Include="src\GameStates\GameState.h" />
+    <ClInclude Include="src\GameStates\StubState.h" />
+    <ClInclude Include="src\Graphics\AnimationController.hpp" />
+    <ClInclude Include="src\Graphics\Background.hpp" />
+    <ClInclude Include="src\Graphics\Camera.hpp" />
+    <ClInclude Include="src\Graphics\GraphicBase.hpp" />
+    <ClInclude Include="src\Graphics\Graphics.hpp" />
+    <ClInclude Include="src\Graphics\GraphicsTypes.hpp" />
+    <ClInclude Include="src\Graphics\Mesh.hpp" />
+    <ClInclude Include="src\Graphics\Shader.hpp" />
+    <ClInclude Include="src\Graphics\Sprite.hpp" />
+    <ClInclude Include="src\Graphics\Texture.hpp" />
+    <ClInclude Include="src\Graphics\Tileset.hpp" />
+    <ClInclude Include="src\Input\Input.hpp" />
+    <ClInclude Include="src\Input\InputTest.hpp" />
+    <ClInclude Include="src\Menus\MenuComponent.h" />
+    <ClInclude Include="src\Messaging\Messaging.hpp" />
+    <ClInclude Include="src\Messaging\MessagingTest.hpp" />
+    <ClInclude Include="src\Physics\BoundArea.hpp" />
+    <ClInclude Include="src\Physics\Colliders.hpp" />
+    <ClInclude Include="src\Physics\CollisionDetect.hpp" />
+    <ClInclude Include="src\Physics\ContactResolver.hpp" />
+    <ClInclude Include="src\Physics\ForceEmitter.hpp" />
+    <ClInclude Include="src\Physics\ForceGenerator.hpp" />
+    <ClInclude Include="src\Physics\ForceRegistry.hpp" />
+    <ClInclude Include="src\Physics\Particle.hpp" />
+    <ClInclude Include="src\Physics\ParticleEmitter.hpp" />
+    <ClInclude Include="src\Physics\ParticleSystem.hpp" />
+    <ClInclude Include="src\Physics\Physics.hpp" />
+    <ClInclude Include="src\Physics\PhysicsConstants.hpp" />
+    <ClInclude Include="src\Physics\RigidBody.hpp" />
+    <ClInclude Include="src\Physics\stub.hpp" />
+    <ClInclude Include="src\RoomSwitchBehavior.h" />
+    <ClInclude Include="src\RSwitchComponent.h" />
+    <ClInclude Include="src\TemplateLevelCreator\MapTemplate.h" />
+    <ClInclude Include="src\TemplateLevelCreator\TemplateLevel.h" />
+    <ClInclude Include="src\Trace\FileSystem.hpp" />
+    <ClInclude Include="src\Trace\Trace.hpp" />
+    <ClInclude Include="src\Transform\Transform.hpp" />
+    <ClInclude Include="src\Util\Util.hpp" />
+    <ClInclude Include="src\Graphics\Window.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\glsl\BGShader.frag" />
+    <None Include="data\glsl\BGShader.vert" />
+    <None Include="data\glsl\CircleShader.frag" />
+    <None Include="data\glsl\CircleShader.vert" />
+    <None Include="data\glsl\ColorShader.frag" />
+    <None Include="data\glsl\ColorShader.vert" />
+    <None Include="data\glsl\TextureCircleShader.frag" />
+    <None Include="data\glsl\TextureCircleShader.vert" />
+    <None Include="data\glsl\TextureShader.frag" />
+    <None Include="data\glsl\TextureShader.vert" />
+    <None Include="data\json\BackgroundImageArchetype.json" />
+    <None Include="data\json\CameraArchetype.json" />
+    <None Include="data\json\DemoState.json" />
+    <None Include="data\json\EnemyArchetype.json" />
+    <None Include="data\json\MainMenu.json" />
+    <None Include="data\json\Manifest.json" />
+    <None Include="data\json\MenuArchetype.json" />
+    <None Include="data\json\MusicControllerArchetype.json" />
+    <None Include="data\json\PlatformArchetype.json" />
+    <None Include="data\json\Player1Wins.json" />
+    <None Include="data\json\Player2Wins.json" />
+    <None Include="data\json\PlayerArchetype.json" />
+    <None Include="data\json\Punch.json" />
+    <None Include="data\json\Punch1.json" />
+    <None Include="data\json\PunchArchetype.json" />
+    <None Include="data\json\SplashScreen.json" />
+    <None Include="data\json\UIArchetype.json" />
+    <None Include="data\json\UICircleArchetype.json" />
+    <None Include="data\lua\Behaviors.lua" />
+    <None Include="data\lua\Samples.lua" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

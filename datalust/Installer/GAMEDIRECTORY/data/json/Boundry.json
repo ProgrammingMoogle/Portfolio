@@ -1,0 +1,12 @@
+{
+ "Object": [
+   {
+   "Archetype" : "data/json/BoundryArch.json",
+   "Name" : "North Wall"
+   },
+   {
+    "Archetype" : "data/json/BoundryArch.json",
+    "Name" : "South Wall"
+   }
+ ]
+}

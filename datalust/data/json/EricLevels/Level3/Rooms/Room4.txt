@@ -1,0 +1,27 @@
+Key - Room4
+W=PlatformArchetype,true
+3=EricLevels\Level3\roomswitchs\RoomSwitch4To3,false
+8=EricLevels\Level3\roomswitchs\RoomSwitch4To8,false
+0=EricLevels\Level3\roomswitchs\RoomSwitch4To0,false
+6=EricLevels\Level3\roomswitchs\RoomSwitch4To6,false
+D=EricLevels\Level3\Doors\Door2,false
+O=EricLevels\Level3\Doors\Door3,false
+E=EricLevels\Level3\Enemies\RedBlueDoor3,false
+F=EricLevels\Level3\Enemies\RedBlueDoor4,false
+M=EricLevels\Level3\HealthPickups\HealthPickup1,false
+G=EricLevels\Level3\roomswitchs\GoalBlock,false
+,
+LAYOUT: 18x10
+.........8..........
+.WWWWWWWW..WWWWWWWW.
+.WWWWWWWW..WWWWWWWW.
+.WWWWWWWWF.WWWWWWWW.
+.WWWWWWWWO.WWWWWWWW.
+3...M..EDGGDE..M...0
+....M....GG....M....
+.WWWWWWWWO.WWWWWWWW.
+.WWWWWWWWF.WWWWWWWW.
+.WWWWWWWW..WWWWWWWW.
+.WWWWWWWW..WWWWWWWW.
+.........6..........
+,

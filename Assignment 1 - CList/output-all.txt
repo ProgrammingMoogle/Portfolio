@@ -1,0 +1,305 @@
+----- test_add_front ----------------------------------------
+==================
+   7: seven
+   6: six
+   5: five
+   4: four
+   3: three
+   2: two
+   1: one
+----- test_add_end ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+----- test_remove1 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+----- test_add_remove2 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+==================
+   2: two
+   6: six
+==================
+   2: two
+==================
+==================
+----- test_insert_before1 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+==================
+ 104: betty
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+==================
+ 104: betty
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+----- test_insert_after1 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+ 104: betty
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+ 104: betty
+----- test_find1 (no cache) ----------------------------------------
+==================
+   0: node
+   1: node
+   2: node
+   3: node
+   4: node
+   5: node
+   6: node
+   7: node
+   8: node
+   9: node
+Comparisons to find 0: 1
+Comparisons to find 1: 2
+Comparisons to find 2: 3
+Comparisons to find 3: 4
+Comparisons to find 4: 5
+Comparisons to find 5: 6
+Comparisons to find 6: 7
+Comparisons to find 7: 8
+Comparisons to find 8: 9
+Comparisons to find 9: 10
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+==================
+   0: node
+   1: node
+   2: node
+   3: node
+   4: node
+   5: node
+   6: node
+   7: node
+   8: node
+   9: node
+Total comparisons: 155
+----- test_find2 (cache) ----------------------------------------
+==================
+   0: node
+   1: node
+   2: node
+   3: node
+   4: node
+   5: node
+   6: node
+   7: node
+   8: node
+   9: node
+Comparisons to find 0: 1
+Comparisons to find 1: 2
+Comparisons to find 2: 3
+Comparisons to find 3: 4
+Comparisons to find 4: 5
+Comparisons to find 5: 6
+Comparisons to find 6: 7
+Comparisons to find 7: 8
+Comparisons to find 8: 9
+Comparisons to find 9: 10
+Comparisons to find 6: 2
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+==================
+   6: node
+   7: node
+   9: node
+   8: node
+   5: node
+   4: node
+   3: node
+   2: node
+   1: node
+   0: node
+Total comparisons: 78
+----- test_find_stress1 (no cache) ----------------------------------------
+Adding... Done.
+Finding... Done.
+Total comparisons: 1311117500
+----- test_find_stress2 (with cache) ----------------------------------------
+Adding... Done.
+Finding... Done.
+Total comparisons: 15238690
+----- test_a_lot ----------------------------------------
+==================
+   4: node
+  14: node
+   2: node
+   7: node
+  18: node
+  13: node
+  12: node
+   8: node
+  14: node
+  12: node
+   8: node
+   1: node
+   2: node
+   5: node
+   5: node
+  11: node
+   5: node
+  10: node
+   4: node
+   5: node
+   6: node
+  13: node

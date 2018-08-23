@@ -1,0 +1,9 @@
+Here are two more test drivers with which to test your 'Affine' package.
+
+Since I don't want to give you the actual test driver code (as they contain implementations of the 'Affine' package functions), I've given them to you in binary object-file form.  To compile each test, you can type on the Visual Studio command line:
+   cl /EHsc VectorTest.obj Affine.cpp
+   cl /EHsc TransformTest.obj Affine.cpp
+If all goes well, this will produce two executables: 'VectorTest.exe' and 'TransformTest.exe', which you can then run.
+
+These object files are for use with Visual Studio 2015 only (sorry).
+

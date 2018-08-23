@@ -1,0 +1,27 @@
+{
+      "Type": "Text",
+			"Name": "P1Win",
+      "Sprite": {
+        "FileName": "data/img/bg/TutorialText1.png",
+        "SpriteWidth": 592,
+        "SpriteHeight": 184,
+        "Alpha": 1,
+        "BlendAlpha": 1,
+        "Red": 1,
+        "Green":1,
+        "Blue": 1,
+        "BlendMode": 1,
+        "Depth": 0,
+        "Frame": 0
+      },
+      "DelayedDestruction":{
+      "Lifetime" : 7
+      },
+      "Transform": {
+    "Orientation": 0,
+    "xPosition": 0,
+    "yPosition": 0,
+    "xScale": 2,
+    "yScale": 2
+  }
+}

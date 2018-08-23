@@ -1,0 +1,25 @@
+Key - RoomG
+W=PlatformArchetype,true
+H=Hole,true
+1=EricLevels\Level4\roomswitchs\RoomSwitch16To15,false
+E=EricLevels\Level4\Enemies\RightShootingEnemy,false
+F=EricLevels\Level4\Enemies\DownShootingEnemy,false
+G=EricLevels\Level4\Enemies\UpShootingEnemy,false
+I=EricLevels\Level4\Enemies\LeftShootingEnemy,false
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+J=EricLevels\Level4\Enemies\EnemyDoor2Wide2Tall,false
+D=EricLevels\Level4\Doors\Door2Tall,false
+,
+LAYOUT: 18x10
+.1................
+W..WWWWWWWWWWWWWWW
+W...MWE.........WW
+W..WHW..W......IWW
+W...IW.GWWWWHW..MW
+W...FHFWJ.HFFW..IW
+W....W.W..H..W..MW
+WWWW....WWW..W..IW
+WMMD....HHHE....WW
+WMM.....HHHE..GGWW
+WWWWWWWWWWWWWWWWWW
+,

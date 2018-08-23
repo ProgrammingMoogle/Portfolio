@@ -1,0 +1,19 @@
+Key - Room1
+W=PlatformArchetype,true
+H=Hole,true
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch1To2,false
+,
+LAYOUT: 18x10
+....HHHHHHHHHH....
+...HH...P....HH...
+..HH..........HH..
+..H.M........M.H..
+..HWWM......MWWH..
+..W..WM....MW..W..
+..WE..W....W..EW..
+.HHWWWW....WWWWHH.
+.H..............H.
+.H..............H.
+.........1........
+,

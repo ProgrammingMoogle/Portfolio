@@ -1,0 +1,25 @@
+{
+  "Type": "UICircle",
+  "Transform": {
+    "Orientation": 0,
+    "xPosition": 0,
+    "yPosition": 0,
+    "xScale": 50,
+    "yScale": 50
+  },
+  "UICircleSprite": {
+    // If you want a object to have a non-textured mesh (like a white box) give it a sprite
+    // but leave the filename as an empty string
+    "FileName": "",
+    "SpriteWidth": 128,
+    "SpriteHeight": 128,
+    "Alpha": 1,
+    "BlendAlpha": 0,
+    "Red": 0,
+    "Green": 0,
+    "Blue": 0,
+    "BlendMode": 1,
+    "Depth": 0,
+    "Frame": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Type": "ForceEmitterBox",
+  "Transform": {
+    "Orientation": 0,
+		"xPosition": 0,
+		"yPosition": 0,
+		"xScale": 1,
+		"yScale": 1
+  },
+  "ForceEmitterBox": {
+    "Force": {
+      "Type": "ForceGravity",
+      "Vec1X": 0,
+      "Vec1Y": 0,
+      "Vec2X": 0,
+      "Vec2Y": 0,
+      "Val1": 0,
+      "Val2": 0
+    },
+    "xHalfSize": 10000 ,
+    "yHalfSize": 10000
+  },
+  "Sprite": {
+    "FileName": "",
+    "SpriteWidth": 20000,
+    "SpriteHeight": 20000,
+    "Alpha": 0.5,
+    "BlendAlpha": 1,
+    "Red": 1,
+    "Green": 0,
+    "Blue": 0,
+    "BlendMode": 1,
+    "Depth": -100,
+    "Frame": 0
+  }
+}

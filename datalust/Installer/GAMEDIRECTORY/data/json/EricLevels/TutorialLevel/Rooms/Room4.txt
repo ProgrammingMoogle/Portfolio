@@ -1,0 +1,18 @@
+Key - Room4
+W=PlatformArchetype,true
+E=/EricLevels/TutorialLevel/Enemies/StationaryEnemy,false
+S=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch4To2,false
+D=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch4To5,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWW.
+WWWWWWWWWWWWWWWWWW.
+...................
+S..................
+.................ED
+WWWWW..............
+WWWWWWWWW..........
+WWWWWWWWWWWW.......
+WWWWWWWWWWWWWWWWWW.
+WWWWWWWWWWWWWWWWWW.
+,

@@ -1,0 +1,20 @@
+Key - Room5
+W=PlatformArchetype,true
+H=Hole,true
+B=EricLevels\Level4\Enemies\BossEnemy1,false
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch5To4,false
+,
+LAYOUT: 18x10
+HWWWWWWWWWH.HWWWWW
+HM.........H....MW
+W.WW..........WW.W
+W.W............W.W
+W.......B........W
+W................W
+W.W............W.W
+W.WW..........WH.W
+W.......HH......MW
+W..WWWWH..HWWWWWWW
+.1................
+,

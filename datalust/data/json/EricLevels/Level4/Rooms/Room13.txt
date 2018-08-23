@@ -1,0 +1,23 @@
+Key - Room1
+W=PlatformArchetype,true
+H=Hole,false
+D=EricLevels\Level4\Doors\Door2Wide,false
+E=EricLevels\Level4\Enemies\TurretEnemy1,false
+F=EricLevels\Level4\Enemies\EnemyDoor4Tall,false
+G=EricLevels\Level4\Enemies\EnemyDoor2Tall,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch13To0,false
+2=EricLevels\Level4\roomswitchs\RoomSwitch13To14,false
+,
+LAYOUT: 18x10
+........HHHHHH..WWW
+.HHHHHHH......HH.EW
+................H.W
+....W......HH.E.H.W
+1...W.....H..H...H.
+....W....H....H.G.W
+.......HH......H..W
+.HHHHHH..W.....W..W
+.W........W.E..W..W
+.WWW.......WWWWW..W
+................2..
+,

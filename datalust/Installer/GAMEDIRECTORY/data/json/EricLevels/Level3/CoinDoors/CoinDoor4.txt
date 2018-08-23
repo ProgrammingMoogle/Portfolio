@@ -1,0 +1,7 @@
+Key - CoinDoor4
+xScale=1
+yScale=3
+xOffset=0
+yOffset=0
+price=20
+,

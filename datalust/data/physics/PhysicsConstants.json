@@ -1,0 +1,6 @@
+{
+  "Linear Dampening" : 0.99,
+  "Angular Dampening" : 0.99,
+  "Dynamics Multiplier" : 600,
+  "Gravity" : -12.0
+}

@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Audio\Audio.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\Behaviors.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GameObjectManager.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\SlotMap.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStateManager\GameStateManager.cpp">
+      <Filter>Source Files\GameStates\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\DemoState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\StubState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\GraphicBase.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Mesh.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Sprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Texture.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Window.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\Input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\InputTest.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messaging\Messaging.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messaging\MessagingTest.cpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\BoundArea.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Colliders.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\ContactResolver.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\ForceGenerator.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\ForceRegistry.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Physics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\RigidBody.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\stub.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transform\Transform.cpp">
+      <Filter>Source Files\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\Util.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\GameObject\ObjectFactory.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsoncpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Audio\AudioTest.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Shader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Background.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\ObjectFactory_timpl.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\AnimationState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GameState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\CollisionDetect.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\AnimationController.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\ForceEmitter.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Trace\Trace.cpp">
+      <Filter>Source Files\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\CameraBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\Player1Behavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Audio\MusicComponent.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\PlatformBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menus\MenuComponent.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\MenuBehaviors.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\BoundryBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\PunchBehaviors.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\HUDBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\ParticleEmitter.cpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics\Particle.cpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\ParticleGraphic.cpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParticleAnimator.cpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\ParticleSystem.cpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\BulletBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\FrameBuffer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TemplateLevelCreator\TemplateLevel.cpp">
+      <Filter>Source Files\TemplateLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\EnemyHealthBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Blur.cpp">
+      <Filter>Source Files\Graphics\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\BrightFilter.cpp">
+      <Filter>Source Files\Graphics\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Bloom.cpp">
+      <Filter>Source Files\Graphics\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\EnemyChaseBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\EnemyPaceBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\ColliderSprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HealthComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Trace\FileSystem.cpp" />
+    <ClCompile Include="src\CoinBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\TextSprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\DelayedDestructionBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GoalBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\HoleBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RoomSwitchBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\FadeOut.cpp" />
+    <ClCompile Include="src\Behaviors\ParticleFadeout.cpp" />
+    <ClCompile Include="src\Graphics\ColorFade.cpp" />
+    <ClCompile Include="src\RSwitchComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HealthPickupComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TemplateLevelCreator\MapTemplate.cpp" />
+    <ClCompile Include="src\Cheats\CheatOptions.cpp">
+      <Filter>Source Files\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyDoorBehavior.cpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviors\EnemyBehavior.cpp" />
+    <ClCompile Include="src\Behaviors\EnemyBullet.cpp" />
+    <ClCompile Include="src\DoorTextComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{27258078-F94A-360C-AB49-062B96455C2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{2BBE848D-FBE4-3E85-905C-08126D652DB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{ff535190-5283-4458-b908-22d97f555c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviors">
+      <UniqueIdentifier>{fe5782fb-b101-4456-a7e7-a02b4a7c7110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{fd3a2b66-2db2-42f5-b98d-3b09e80027e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{f1b23d2a-aa23-4f59-99f5-a0489eeb4daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{3d6c7afa-e73e-4232-9157-64cc3d5034ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{9e05825a-fc15-4a3e-96dc-b07acf7f0bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Messaging">
+      <UniqueIdentifier>{0d3583c3-08ed-4e05-a793-23b30e5f7b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{bacace2a-3035-4a3a-8d8b-a5067477a063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transform">
+      <UniqueIdentifier>{aabd1ae2-4664-4517-b875-8fb39401a97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{bfe5cbd7-793b-459c-92d5-63f21d5607d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{413e80b5-b8db-461f-8611-64527a229170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{6af8e203-44a0-43ba-9ae9-337c133652d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{5135a57d-74d5-4ba3-a582-4a9af590cb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Editor">
+      <UniqueIdentifier>{384ba35b-c739-4b55-bf0f-b78f54974120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trace">
+      <UniqueIdentifier>{6ba7a949-7e51-462f-9113-f648e2688941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{a35d9124-6bdc-4f39-b619-863bae980bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menus">
+      <UniqueIdentifier>{482c06ca-9608-48f9-ab7d-44ee58c016e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Particle">
+      <UniqueIdentifier>{30cfa19d-fef3-4da6-af30-64f2dfb8ddca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\PostProcessing">
+      <UniqueIdentifier>{47792f5c-00a9-420d-8648-f52d41f3e156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TemplateLevel">
+      <UniqueIdentifier>{66014635-6f91-4262-9db8-5be6e4ea98b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\PostProcessing\Shaders">
+      <UniqueIdentifier>{fef37163-d1c9-4551-a144-ad24f0f0a84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cheats">
+      <UniqueIdentifier>{9439c30e-cd5e-44ed-bf26-ae5e5736747f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates\GameStateManager">
+      <UniqueIdentifier>{c660c494-c928-4c6a-9e94-6215bfb5eb0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Audio\Audio.hpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\Behaviors.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Engine.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\System.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Component.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GameObject.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GameObjectManager.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\SlotMap.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStateManager\GameStateManager.h">
+      <Filter>Source Files\GameStates\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\DemoState.h">
+      <Filter>Source Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GameState.h">
+      <Filter>Source Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\StubState.h">
+      <Filter>Source Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\AnimationController.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Background.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Camera.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\GraphicBase.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Graphics.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\GraphicsTypes.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Mesh.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Sprite.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Texture.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Tileset.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\Input.hpp">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Messaging\Messaging.hpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\BoundArea.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\Colliders.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\ContactResolver.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\ForceGenerator.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\ForceRegistry.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\Physics.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\PhysicsConstants.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\RigidBody.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\stub.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transform\Transform.hpp">
+      <Filter>Source Files\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Util.hpp">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\InputTest.hpp">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Messaging\MessagingTest.hpp">
+      <Filter>Source Files\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Audio\AudioTest.hpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Shader.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imconfig.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui_internal.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\stb_rect_pack.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\stb_textedit.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\stb_truetype.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Window.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Renderer.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\ObjectFactory.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\AnimationState.h">
+      <Filter>Source Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\CollisionDetect.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\ForceEmitter.hpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Trace\Trace.hpp">
+      <Filter>Source Files\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\CameraBehavior.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\Player1Behavior.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Audio\MusicComponent.hpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\PlatformBehavior.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\MenuBehaviors.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Menus\MenuComponent.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\BoundryBehavior.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\PunchBehaviors.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\HUDBehavior.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\Particle.hpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\ParticleEmitter.hpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics\ParticleSystem.hpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\ParticleAnimator.hpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\ParticleGraphic.hpp">
+      <Filter>Source Files\Graphics\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\BulletBehavior.h">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\FrameBuffer.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\PostProcessing.hpp">
+      <Filter>Source Files\Graphics\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Bloom.hpp">
+      <Filter>Source Files\Graphics\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TemplateLevelCreator\TemplateLevel.h">
+      <Filter>Source Files\TemplateLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\EnemyHealthBehavior.h">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Blur.hpp">
+      <Filter>Source Files\Graphics\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\BrightFilter.hpp">
+      <Filter>Source Files\Graphics\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\EnemyChaseBehavior.h">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\EnemyPaceBehavior.h">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\ColliderSprite.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BulletType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HealthComponent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Trace\FileSystem.hpp" />
+    <ClInclude Include="src\CoinBehavior.h">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\TextSprite.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\DelayedDestructionBehavior.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GoalBehavior.h">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\HoleBehavior.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RoomSwitchBehavior.h">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\FadeOut.hpp" />
+    <ClInclude Include="src\Behaviors\ParticleFadeout.hpp" />
+    <ClInclude Include="src\Graphics\ColorFade.hpp" />
+    <ClInclude Include="src\RSwitchComponent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\GraphicsConstants.hpp" />
+    <ClInclude Include="src\HealthPickupComponent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TemplateLevelCreator\MapTemplate.h" />
+    <ClInclude Include="src\Cheats\CheatOptions.hpp">
+      <Filter>Source Files\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\EnemyBehavior.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviors\EnemyBullet.hpp">
+      <Filter>Source Files\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemyDoorBehavior.h" />
+    <ClInclude Include="src\DoorTextComponent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\GameObject\game_object_timpl.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\lua\Behaviors.lua">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="data\json\DemoState.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\lua\Samples.lua">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="data\json\BackgroundImageArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\CameraArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\PlatformArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\PlayerArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\Punch.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\Punch1.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\PunchArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\UIArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\glsl\BGShader.frag">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\BGShader.vert">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\ColorShader.frag">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\ColorShader.vert">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\TextureShader.frag">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\TextureShader.vert">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\CircleShader.frag">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\CircleShader.vert">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\TextureCircleShader.frag">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\glsl\TextureCircleShader.vert">
+      <Filter>Source Files\Graphics\PostProcessing\Shaders</Filter>
+    </None>
+    <None Include="data\json\SplashScreen.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\Manifest.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\MenuArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\MainMenu.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\MusicControllerArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\Player1Wins.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\Player2Wins.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\UICircleArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="data\json\EnemyArchetype.json">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+Key - Room6
+W=PlatformArchetype,true
+H=Hole,true
+E=EricLevels\Level4\Enemies\TurretEnemy1,false
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+D=EricLevels\Level4\Doors\Door2Wide,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch6To7,false
+2=EricLevels\Level4\roomswitchs\RoomSwitch6To3,false
+,
+LAYOUT: 18x10
+.......1...........
+.....W....WW...WWW
+......WD.WH....HEW
+.HH...H....H...HHW
+H.EH...H....H.....
+HE.H....H...MH....
+.HH.....H..W.H...W
+..WWW.HH....MH...W
+..W..H.....HH..WWW
+....H.....H...WWWW
+....H....H...WWWWW
+......2...........
+,

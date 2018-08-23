@@ -1,0 +1,18 @@
+Key - Room1
+W=PlatformArchetype,true
+1=EricLevels\Level1\Doors\RedBlueDoor,false
+2=EricLevels\Level1\roomswitchs\RoomSwitch1To2,false
+T=EricLevels\Level1\roomswitchs\GoalBlock,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWW.
+WWWWWWW....WWWWWWW.
+WWWWW........WWWWW.
+WWW............WWW.
+WW...P..........1.2
+WW.................
+WWW............WWW.
+WWWWW........WWWWW.
+WWWWWWW....WWWWWWW.
+WWWWWWWWWWWWWWWWWW.
+,

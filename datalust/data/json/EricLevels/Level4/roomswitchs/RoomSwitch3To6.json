@@ -1,0 +1,62 @@
+{
+  "Type": "RoomChange",
+"RoomSwitch": {
+      "LoadLevel": 6,
+      "Start": [800,-900]
+      },
+  "Transform": {
+    "Orientation": 0,
+    "xPosition": 0,
+    "yPosition": 0,
+    "xScale": 4,
+    "yScale": 1
+  },
+  "RigidBody": {
+      "Mass": 0,
+      "Force": false
+    },
+  "Colliders": {
+      "ColliderGroup" : 2,
+      "BoundType": 0,
+      "xHalfSize": 60,
+      "yHalfSize": 60,
+      "xOffset": 0,
+      "yOffset": 0
+    },
+   "ParticleEmitter" :
+  {
+    "Emitter Size X": 400,
+    "Emitter Size Y": 66,
+    "Random Angle": false,
+    "Angle": 0,
+    "Angle Variance": 0.0,
+    "Warmup Time": 0.0,
+    "Count": 0,
+    "Force X": 0,
+    "Force Y": 0,
+    "Force Variance X": 0,
+    "Force Variance Y": 0,
+    "Size": 25,
+    "Size Variance": 0,
+    "Rate": 45,
+    "Rate Variance": 0,
+    "Lifetime": 0.5,
+    "Lifetime Variance": 0
+  },
+  "ParticleSystem" :
+  {
+    "Texture": "",
+    "Width" : 25,
+    "Height" : 25,
+    "Fill" : 1,
+    "Depth" : 9,
+    "Red": 0.88,
+    "Green" : 0.22,
+    "Blue" : 0.94,
+    "BlendAlpha": 1,
+    "Alpha": 3,
+    "BlendMode": 5,
+    "Space" : 1,
+    "Shape": 0
+  }
+}

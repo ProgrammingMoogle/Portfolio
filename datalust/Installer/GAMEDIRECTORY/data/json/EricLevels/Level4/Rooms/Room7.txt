@@ -1,0 +1,24 @@
+Key - Room7
+W=PlatformArchetype,true
+H=Hole,true
+E=EricLevels\Level4\Enemies\FollowingEnemy1,false
+F=EricLevels\Level4\Enemies\EnemyDoor3Tall,false
+G=EricLevels\Level4\Enemies\EnemyDoor4Wide,false
+I=EricLevels\Level4\Enemies\EnemyDoor2Tall,false
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+D=EricLevels\Level4\Doors\Door2Tall,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch7To6,false
+,
+LAYOUT: 18x10
+....WWHHHHHHHHHHW.
+..WWE.EHHH....HMMW
+WW.W.E..H..M..DMMH
+HEEW.G..W.......HH
+WE............WWHH
+.W.F..HWWW....IE.H
+..W...HEE.F.....WW
+...W..WWWW....WW..
+....W.......WW....
+.....W....WW......
+........1.........
+,

@@ -1,0 +1,154 @@
+{
+  "Object": [
+    {
+      "Archetype": "data/json/CameraArchetype.json",
+      "Name": "cam",
+      "Camera": {
+        "isActive": true
+      }
+    },
+    {
+      "Archetype": "data/json/BackgroundImageArchetype.json",
+      "Name": "bg_2",
+      "Transform": {
+        "Orientation": 38,
+        "xScale": 1,
+        "yScale": 1
+      }
+    },
+    {
+      "Archetype": "data/json/UIArchetype.json",
+      "Name": "Title",
+      "Transform": {
+        "Orientation": 0,
+        "xPosition": 0,
+        "yPosition": -0.2,
+        "xScale": 1,
+        "yScale": 1
+      },
+      "UISprite": {
+        "FileName": "data/img/bg/GameTitleScreen.png",
+        "SpriteWidth": 1280,
+        "SpriteHeight": 720,
+        "Alpha": 1,
+        "BlendAlpha": 1,
+        "Red":   1,
+        "Green": 1,
+        "Blue":  1,
+        "BlendMode": 1,
+        "Depth": 0,
+        "Frame": 1,
+        "level": 2,
+        "xOffset": 0,
+        "yOffset": 0
+      }
+    },
+    {
+      "Archetype": "data/json/BackgroundImageArchetype.json",
+      "Name": "bg_1",
+      "Transform": {
+        "Orientation": 79,
+        "xScale": 1,
+        "yScale": 1
+      },
+      "BackgroundImage": {
+        "ParallaxFactor": 0.25,
+        "FileName": "data/img/bg/bg_1.png",
+        "Depth": 3
+      }
+    },
+    {
+      "Archetype": "data/json/MenuArchetype.json",
+      "Name": "Menu",
+      "Behaviors": {
+        "BehaviorsType": 4
+      },
+      "MenuComponent": {
+        "UISprite": [
+          {
+            "FileName": "data/img/spr/menu_playsquare.png",
+            "SpriteWidth": 422,
+            "SpriteHeight": 64,
+            "Alpha": 1,
+            "BlendAlpha": 1,
+            "Red": 1,
+            "Green": 1,
+            "Blue": 1,
+            "BlendMode": 1,
+            "Depth": 0,
+            "Frame": 1,
+            "level": 3,
+            "xOffset": 0,
+            "yOffset": 1.6
+          },
+          {
+            "FileName": "data/img/spr/menu_howtosquare.png",
+            "SpriteWidth": 422,
+            "SpriteHeight": 64,
+            "Alpha": 1,
+            "BlendAlpha": 1,
+            "Red": 1,
+            "Green": 1,
+            "Blue": 1,
+            "BlendMode": 1,
+            "Depth": 0,
+            "Frame": 0,
+            "level": 4,
+            "xOffset": 0,
+            "yOffset": -1.4
+          },
+          {
+            "FileName": "data/img/spr/menu_creditsquare.png",
+            "SpriteWidth": 422,
+            "SpriteHeight": 64,
+            "Alpha": 1,
+            "BlendAlpha": 1,
+            "Red": 1,
+            "Green": 1,
+            "Blue": 1,
+            "BlendMode": 1,
+            "Depth": 0,
+            "Frame": 0,
+            "level": 5,
+            "xOffset": 0,
+            "yOffset": -4.4
+          },
+          {
+            "FileName": "data/img/spr/menu_quitsquare.png",
+            "SpriteWidth": 422,
+            "SpriteHeight": 64,
+            "Alpha": 1,
+            "BlendAlpha": 1,
+            "Red": 1,
+            "Green": 1,
+            "Blue": 1,
+            "BlendMode": 1,
+            "Depth": 0,
+            "Frame": 0,
+            "level": 6,
+            "xOffset": 0,
+            "yOffset": -7.4
+          }
+        ]
+      }
+    },
+    {
+      "Archetype": "data/json/MusicControllerArchetype.json",
+      "Name": "MusicController",
+      "MusicController": {
+        "Music": [
+          {
+            "Name": "Distinction",
+            "Delay": 0,
+            "Probability": 0.4
+          },
+          {
+            "Name": "Encouragement",
+            "Delay": 0,
+            "Probability": 0.6
+          }
+        ]
+      }
+    }
+  ]
+}

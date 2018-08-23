@@ -1,0 +1,176 @@
+{
+	"animations": [
+		{
+			"name": "idle",
+			"loop": true,
+			"frame-data": [
+				{
+					"index": 0,
+					"duration": 0.1
+				},
+				{
+					"index": 0,
+					"duration": 0.1
+				}
+			]
+		},
+		{
+			"name": "walk",
+			"loop": true,
+			"frame-data": [
+				{
+					"index": 0,
+					"duration": 0.1
+				},
+				{
+					"index": 3,
+					"duration": 0.1
+				},
+				{
+					"index": 4,
+					"duration": 0.1
+				},
+				{
+					"index": 5,
+					"duration": 0.1
+				}
+			]
+		},
+		{
+			"name": "punch",
+			"loop": false,
+			"frame-data": [
+				{
+					"index": 0,
+					"duration": 0.005
+				},
+				{
+					"index": 6,
+					"duration": 0.005
+				},
+				{
+					"index": 7,
+					"duration": 0.005
+				},
+				{
+					"index": 8,
+					"duration": 0.005
+				},
+				{
+					"index": 9,
+					"duration": 0.005
+				},
+				{
+					"index": 10,
+					"duration": 0.005
+				},
+				{
+					"index": 11,
+					"duration": 0.005
+				},
+				{
+					"index": 12,
+					"duration": 0.005
+				},
+				{
+					"index": 13,
+					"duration": 0.005
+				},
+				{
+					"index": 14,
+					"duration": 0.005
+				},
+				{
+					"index": 15,
+					"duration": 0.0025
+				},
+				{
+					"index": 16,
+					"duration": 0.0025
+				},
+				{
+					"index": 17,
+					"duration": 0.0025
+				},
+				{
+					"index": 18,
+					"duration": 0.0025
+				},
+				{
+					"index": 19,
+					"duration": 0.0025
+				},
+				{
+					"index": 20,
+					"duration": 0.4
+				},
+				{
+					"index": 19,
+					"duration": 0.075
+				},
+				{
+					"index": 18,
+					"duration": 0.075
+				},
+				{
+					"index": 17,
+					"duration": 0.075
+				},
+				{
+					"index": 16,
+					"duration": 0.075
+				},
+				{
+					"index": 15,
+					"duration": 0.075
+				},
+				{
+					"index": 14,
+					"duration": 0.005
+				},
+				{
+					"index": 13,
+					"duration": 0.005
+				},
+				{
+					"index": 12,
+					"duration": 0.005
+				},
+				{
+					"index": 11,
+					"duration": 0.005
+				},
+				{
+					"index": 10,
+					"duration": 0.005
+				},
+				{
+					"index": 9,
+					"duration": 0.005
+				},
+				{
+					"index": 8,
+					"duration": 0.005
+				},
+				{
+					"index": 7,
+					"duration": 0.005
+				},
+				{
+					"index": 6,
+					"duration": 0.005
+				}
+			]
+		},
+		{
+			"name" : "jump",
+			"loop" : false,
+			"frame-data" : [
+				{
+					"index": 6,
+					"duration": 0.005
+				}
+			]
+		}
+	]
+}

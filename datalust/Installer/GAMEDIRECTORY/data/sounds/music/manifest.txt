@@ -1,0 +1,8 @@
+#Music manifest
+Encouragement		   loop
+AlmightyDollar         loop
+Distinction            loop
+menu_music             loop
+NoseForTrouble         loop
+RockAndAHardPlace      loop
+SpaghettiGuitarInSpace loop

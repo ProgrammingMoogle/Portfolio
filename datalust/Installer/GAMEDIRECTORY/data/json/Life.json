@@ -1,0 +1,29 @@
+{
+	"Object": [
+		{
+			"Archetype": "data/json/UIArchetype.json",
+			"Name": "life",
+			"LifeTime": 4,
+      "UISprite": {
+        "FileName": "data/img/bg/Health.png",
+        "SpriteWidth": 84,
+        "SpriteHeight": 52,
+        "Alpha": 1,
+        "BlendAlpha": 0,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 0,
+        "BlendMode": 1,
+        "Depth": 0,
+        "Frame": 0
+      },
+      "Transform": {
+    "Orientation": 0,
+    "xPosition": 0.5,
+    "yPosition": 0.65,
+    "xScale": 0.04,
+    "yScale": 0.04
+  }
+		}
+	]
+}

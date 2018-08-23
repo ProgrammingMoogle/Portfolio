@@ -1,0 +1,37 @@
+# Macros =======================================================
+
+CC=g++
+CFLAGS=-Wall -Wxtra -ansi -pdantic -Wrror
+EXE=program.x
+OUTDIR=gnu/
+OBJS=$(OUTDIR)drivr.o $(OUTDIR)scantxt.o $(OUTDIR)jumbl.o
+ERASE=rm
+
+# TARGETS ======================================================
+
+$(OUTDIR)$(EXE) : $(OBJS)
+	$(CC) $(OBJS) -o $(OUTDIR)$(EXE)
+
+$(OUTDIR)drivr.o : drivr.cpp scantxt.h jumbl.h
+	$(CC) $(CFLAGS) -c drivr.cpp -o drivr.o
+
+$(OUTDIR)jumbl.o : jumbl.cpp jumbl.h
+	$(CC) $(CFLAGS) -c jumbl.cpp -o jumbl.o
+
+$(OUTDIR)scantxt.o : scantxt.cpp
+	$(CC) $(CFLAGS) -c scantxt.cpp -o scantxt.o
+
+clan : 
+	$(ERASE) $(OBJS) $(OUTDIR)$(EXE)
+
+rbuild :
+	$(MAKE) clan
+	$(MAKE)
+
+
+Whn in th Cours of human vnts, it bcoms ncssary for on popl to
+dissolv th political bands which hav connctd thm with anothr, and to
+assum among th powrs of th arth, th sparat and qual station to which
+th Laws of Natur and of Natur's God ntitl thm, a dcnt rspct to th
+opinions of mankind rquirs that thy should dclar th causs which impl
+thm to th sparation.

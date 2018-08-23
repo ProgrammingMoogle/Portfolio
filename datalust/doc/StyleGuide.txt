@@ -1,0 +1,92 @@
+All identifiers should be snake case. Ex:
+
+  int counter_value;
+  float my_float;
+  GameState game_state;
+
+All Namespaces and User Defined Types should be camel case with a leading capital. Ex:
+
+  namespace MyNamespace {
+    class MyClass {
+      public:
+        void myMethod();
+      private:
+        int my_data_;
+    };
+
+    struct MyStruct {
+
+    };
+
+    enum class MyEnum {
+      FirstValue,
+      SecondValue
+    };
+  }
+
+All Functions should be camel case with a leading lowercase. Ex: 
+
+  void myFunction() {
+
+  }
+
+  class MyClass {
+    public:
+      void myFirstMethod();
+      void mySecondMethod();
+    private:
+  };
+
+All private class members should have a trailing underscore. Ex:
+
+  class MyClass {
+    private:
+      int internal_counter_;
+      float value_;
+      void myPrivateMethod_();
+  }
+
+All modules should be enclosed in a Namespace.
+
+All files should have Doxygen comments.
+
+  Block comments should be used used for File, Namespace, Function and User Defined Type headers.
+  Block comments should use the double-star format, should have the comment delimeters on their own
+  lines, and the body of the comment should be indented one level from the delimeters. Ex:
+
+    /**
+      \breif This is a function.
+    */
+    void MyFunction ();
+
+  Namespace, Function and User Defined Type headers should only be present in header files.
+
+  Line comments should be used for documenting member variables. Line comments should the
+  triple-slash format, and should be placed on the same line as the member variable they are
+  documenting. Ex:
+
+    /**
+      \brief My Enum.
+    */
+    enum class MyEnum {
+      FirstValue,  ///< The first value.
+      SecondValue, ///< The second value.
+      ThirdValue   ///< The third value.
+    };
+
+  File headers must include the filename, the author's name, a brief and long description, and the
+  digipen copyright information. Ex:
+
+    /**
+      \file   GraphicsTypes.hpp
+      \author Samuel Cook
+
+      \brief Types used by the Graphics Engine.
+
+      A collection of enums and POD-structs that are used in the Graphics engine's interface and by 
+      the private implementation.
+
+      Copyright 2017 DigiPen Institute of Technology.
+    */
+
+  Comments within functions describing implementation details should NOT be Doxygen comments.

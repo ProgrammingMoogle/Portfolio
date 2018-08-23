@@ -1,0 +1,17 @@
+{
+"Key":[ //- Level2
+"Room1",
+"Room2",
+"Room3",
+"Room4",
+"Room5",
+"Room6",
+"Room7"
+],
+
+"LAYOUT": //4x3 rooms
+[ "12..",
+  "4367",
+  ".5.."
+]
+}

@@ -1,0 +1,6 @@
+Key - Door4
+xScale=3
+yScale=1
+xOffset=0
+yOffset=0
+,

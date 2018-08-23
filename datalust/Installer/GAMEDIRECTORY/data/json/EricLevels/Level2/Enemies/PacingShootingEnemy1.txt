@@ -1,0 +1,22 @@
+Key - PacingShootingEnemy1
+xScale=1
+yScale=1
+xOffset=0
+yOffset=0
+health=5
+stationary=false
+following=false
+loop=true
+speed=1
+fires=true
+firesAtPlayer=true
+firingDirection=(0,0)
+fireRate=0.5
+bulletSpeed=5
+,
+NOTE: Offsets for pacing enemies
+(-2,0)
+(-3,-3)
+(1,-3)
+(1,0)
+,

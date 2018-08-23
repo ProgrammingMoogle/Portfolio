@@ -1,0 +1,21 @@
+{
+	"Object": [
+    {
+      "Archetype": "data/json/PunchArchetype.json",
+      "Name": "Punch",
+      "Behaviors": {
+        "BehaviorsType": 5,
+        "Dmg": 10,
+        "Scalar": 5
+      },
+  "Transform": {
+    "xScale": 0.4,
+    "yScale": 0.4
+  },
+	  "CircleSprite" :
+	  {
+	    "FileName": ""
+	  }
+    }
+	]
+}

@@ -1,0 +1,24 @@
+Key - Room6
+W=PlatformArchetype,true
+1=EricLevels\Level3\roomswitchs\RoomSwitch6To5,false
+2=EricLevels\Level3\roomswitchs\RoomSwitch6To4,false
+D=EricLevels\Level3\Doors\Door3,false
+C=EricLevels\Level3\CoinDoors\CoinDoor3,false
+H=Hole,true
+E=EricLevels\Level3\Enemies\FollowingEnemy1,false
+B=EricLevels\Level3\Enemies\BossEnemy,false
+M=EricLevels\Level3\HealthPickups\HealthPickup1,false
+,
+LAYOUT: 18x10
+.........2.........
+.WWWWWWWWD.WWWWWWWW
+.WM.CE.H..........W
+.W.M...H...E...B..W
+.WWWW..H..........W
+....W..H.....H....W
+1......H.....H....W
+....W........H....W
+.WWWW........H.E..W
+.WM..........H....W
+.WWWWWWWWWWWWWWWWWW
+,

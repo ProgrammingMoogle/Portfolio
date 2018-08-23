@@ -1,0 +1,19 @@
+Key - Room8
+W=PlatformArchetype,true
+1=EricLevels\Level2\roomswitchs\RoomSwitch8To7,false
+G=EricLevels\Level2\roomswitchs\GoalBlock,false
+M=HealthPickup,false
+C=EricLevels\Level2\CoinDoors\CoinDoor2,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWW.
+W.................1
+W..................
+W.........WWWW.C.W.
+W.......WWWWWW.M.W.
+W.....WWWWWWWW...W.
+W....WWWWWWWW..M.W.
+W.G.WWWWWWWW.....W.
+W...WWWWWW.M.M...W.
+WWWWWWWWWWWWWWWWWW.
+,

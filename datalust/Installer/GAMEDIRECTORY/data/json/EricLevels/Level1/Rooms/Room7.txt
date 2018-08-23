@@ -1,0 +1,22 @@
+Key - Room7 // STUFFTOADD
+1=EricLevels\Level1\Enemies\PacingEnemy3,false
+2=EricLevels\Level1\Enemies\PacingEnemy4,false
+3=EricLevels\Level1\Enemies\PacingEnemy5,false
+4=EricLevels\Level1\Enemies\PacingEnemy6,false
+5=EricLevels\Level1\Enemies\PacingEnemy7,false
+W=PlatformArchetype,true
+G=EricLevels\Level1\roomswitchs\GoalBlock,false
+6=EricLevels\Level1\roomswitchs\RoomSwitch7To6,false
+,
+LAYOUT: 18x10
+.WWWWWWWWWWWWWWWWWW
+.WWWW.W.W.W.W.WWWWW
+.WWWW1W.W.W.W.WWWWW
+....W.W2W.W.W.WWWWW
+6........3......GGW
+...........4....GGW
+....W.W.W.W.W5WWWWW
+.WWWW.W.W.W.W.WWWWW
+.WWWW.W.W.W.W.WWWWW
+.WWWWWWWWWWWWWWWWWW
+,

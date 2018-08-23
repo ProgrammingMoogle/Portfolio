@@ -1,0 +1,27 @@
+Key - Room6
+U=EricLevels\TutorialLevel\LevelText\Text5,false
+T=EricLevels\TutorialLevel\LevelText\Text6,false
+W=PlatformArchetype,true
+B=BlueDoorArchetype,false
+R=EricLevels\TutorialLevel\ColorDoors\RedDoor,false
+C=CoinDoorArchetype,false
+S=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch6To9,false
+Q=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch6To5,false
+V=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch6To7,false
+Z=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch6To8,false
+M=HealthPickup,false
+,
+LAYOUT: 18x10
+.........Q..........
+.WWWWWWW....WWWWWWW.
+.WWWWWW.....WWWWWWW.
+.WWWWW......WWWWWWW.
+.........T.........
+SC.U.....M........BV
+....................
+.WWWWWWW........WWW.
+.WWWWWWW.......WWWW.
+.WWWWWWW.....WWWWWW.
+.WWWWWWW..R.WWWWWWW.
+.........Z..........
+,

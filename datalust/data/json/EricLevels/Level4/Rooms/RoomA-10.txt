@@ -1,0 +1,27 @@
+Key - RoomA
+W=PlatformArchetype,true
+H=Hole,true
+E=EricLevels\Level4\Enemies\RightShootingEnemy,false
+F=EricLevels\Level4\Enemies\DownShootingEnemy,false
+G=EricLevels\Level4\Enemies\UpShootingEnemy,false
+H=EricLevels\Level4\Enemies\EnemyDoor2Tall,false
+D=EricLevels\Level4\Doors\Door2Tall,false
+O=EricLevels\Level4\Doors\Door2Wide,false
+1=EricLevels\Level4\roomswitchs\RoomSwitchAToB,false
+2=EricLevels\Level4\roomswitchs\RoomSwitchAToC,false
+3=EricLevels\Level4\roomswitchs\RoomSwitchATo0,false
+,
+LAYOUT: 18x10
+......1............
+WWWWWWO.WWWWWWWWWW.
+W....H..H..F.....W.
+.W..H...H...HHHWWW.
+.W..H....HHH.....D2
+.W..H....H.........
+W...H........HHWWW.
+WE.H.......HH....W.
+W..H.....HH.W...HW.
+W..H.....HW....HGW.
+WWWH.....HWWW..WWW.
+......3............
+,

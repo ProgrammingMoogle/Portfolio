@@ -1,0 +1,21 @@
+Key - Room2
+W=PlatformArchetype,true
+1=EricLevels\Level3\roomswitchs\RoomSwitch2To1,false
+2=EricLevels\Level3\roomswitchs\RoomSwitch2To3,false
+C=EricLevels\Level3\CoinDoors\CoinDoor2,false
+E=EricLevels\Level3\Enemies\PacingShootingEnemy1,false
+M=EricLevels\Level3\HealthPickups\HealthPickup1,false
+D=EricLevels\Level3\Doors\Door1,false
+,
+LAYOUT: 18x10
+.WWWWWWWWWWWWWWWWWW.
+.W.C..M......M..C.W.
+1..WWWWWWWWWWWWWW.W.
+...W............E...
+.W.W.WWW..........D2
+.W.....W.....WWW....
+.W.........W...W....
+.W.W.....WWW......W.
+.WMW..............W.
+.WWWWWWWWWWWWWWWWWW.
+,

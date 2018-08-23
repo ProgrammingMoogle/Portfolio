@@ -1,0 +1,6 @@
+Key - Door2Wide
+xScale=2
+yScale=1
+xOffset=0.5
+yOffset=0
+,

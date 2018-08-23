@@ -1,0 +1,165 @@
+{
+	"animations": [
+		{
+			"name": "idle",
+			"loop": false,
+			"frame-data": [
+				{
+					"index": 0,
+					"duration": 0
+				}
+			]
+		},
+		{
+			"name": "walk",
+			"loop": true,
+			"frame-data": [
+				{
+					"index": 0,
+					"duration": 0.1
+				},
+				{
+					"index": 3,
+					"duration": 0.1
+				},
+				{
+					"index": 4,
+					"duration": 0.1
+				},
+				{
+					"index": 5,
+					"duration": 0.1
+				}
+			]
+		},
+		{
+			"name": "punch",
+			"loop": false,
+			"frame-data": [
+			// Door opening
+				{
+					"index": 7,
+					"duration": 0.025
+				},
+
+				{
+					"index": 9,
+					"duration": 0.025
+				},
+
+				{
+					"index": 11,
+					"duration": 0.025
+				},
+
+				{
+					"index": 13,
+					"duration": 0.025
+				},
+			// Arm extending
+				{
+					"index": 16,
+					"duration": 0.01
+				},
+
+				{
+					"index": 18,
+					"duration": 0.005
+				},
+
+			// Point of Impact
+				{
+					"index": 20,
+					"duration": 0.2
+				},
+			// Arm retracting
+				{
+					"index": 19,
+					"duration": 0.02
+				},
+				{
+					"index": 18,
+					"duration": 0.02
+				},
+				{
+					"index": 17,
+					"duration": 0.03
+				},
+				{
+					"index": 16,
+					"duration": 0.03
+				},
+				{
+					"index": 15,
+					"duration": 0.04
+				},
+				{
+					"index": 14,
+					"duration": 0.04
+				},
+			// Door closing
+				{
+					"index": 13,
+					"duration": 0.025
+				},
+
+				{
+					"index": 11,
+					"duration": 0.025
+				},
+
+				{
+					"index": 9,
+					"duration": 0.025
+				},
+
+				{
+					"index": 7,
+					"duration": 0.025
+				},
+				
+				{
+					"index": 0,
+					"duration": 0
+				}
+
+			]
+		},
+		{
+			"name" : "jumpsquat",
+			"loop" : false,
+			"frame-data" : [
+				{
+					"index": 21,
+					"duration": 0.03
+				},
+				{
+					"index": 22,
+					"duration": 0.05
+				}
+			]
+		},
+		{
+			"name" : "jump",
+			"loop" : false,
+			"frame-data" : [
+				{
+					"index": 25,
+					"duration": 0.1
+				},
+				{
+					"index": 24,
+					"duration": 0.03
+				},
+				{
+					"index": 23,
+					"duration": 0.05
+				},
+				{
+					"index": 0,
+					"duration": 0
+				}
+			]
+		}
+	]
+}

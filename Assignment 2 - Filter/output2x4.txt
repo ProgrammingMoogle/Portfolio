@@ -1,0 +1,37 @@
+# Macros =======================================================
+
+CC=g++
+CFLAGS=-Wall -Wextra -ansi -pedantic -Werror
+EXE=program.exe
+OUTDIR=gnu/
+OBJS=$(OUTDIR)driver.o $(OUTDIR)scantext.o $(OUTDIR)jumble.o
+ERASE=rm
+
+# TARGETS ======================================================
+
+$(OUTDIR)$(EXE) : $(OBJS)
+    $(CC) $(OBJS) -o $(OUTDIR)$(EXE)
+
+$(OUTDIR)driver.o : driver.cpp scantext.h jumble.h
+    $(CC) $(CFLAGS) -c driver.cpp -o driver.o
+
+$(OUTDIR)jumble.o : jumble.cpp jumble.h
+    $(CC) $(CFLAGS) -c jumble.cpp -o jumble.o
+
+$(OUTDIR)scantext.o : scantext.cpp
+    $(CC) $(CFLAGS) -c scantext.cpp -o scantext.o
+
+clean : 
+    $(ERASE) $(OBJS) $(OUTDIR)$(EXE)
+
+rebuild :
+    $(MAKE) clean
+    $(MAKE)
+
+
+When in the Course of human events, it becomes necessary for one people to
+dissolve the political bands which have connected them with another, and to
+assume among the powers of the earth, the separate and equal station to which
+the Laws of Nature and of Nature's God entitle them, a decent respect to the
+opinions of mankind requires that they should declare the causes which impel
+them to the separation.

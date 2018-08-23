@@ -1,0 +1,7 @@
+Key - CoinDoor1
+xScale=6
+yScale=1
+xOffset=0.5
+yOffset=0
+price=20
+,

@@ -1,0 +1,23 @@
+{
+
+  "Key":[  // - Level0- list room numbers in order
+    "Room1",
+    "Room2",
+    "Room3",
+    "Room4",
+    "Room5",
+    "Room6",
+    "Room7",
+    "Room8",
+    "Room9"
+    ],
+  
+
+  "LAYOUT" :[//5x4 rooms
+  ".3...",
+  "1245.",
+  "..967",
+  "...8."
+  ]
+   
+}

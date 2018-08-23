@@ -1,0 +1,178 @@
+{
+  "Object": [
+    {
+      "Archetype": "data/json/CameraArchetype.json",
+      "Name": "cam",
+      "Camera": {
+        "isActive": true
+      },
+      "Behaviors": {
+        "BehaviorsType": 0
+      }
+    },
+    {
+      "Archetype": "data/json/PlayerArchetype.json",
+      "Name": "Player1",
+      "Behaviors": {
+        "BehaviorsType": 1,
+        "CanShoot" : 1
+      },
+      "Sprite": {
+        "FileName": "data/img/spr/blue_tank.png"
+      },
+      "Transform": {
+        "xPosition": 800,
+        "yPosition": -200
+      },
+       "Health": {
+    "Total": 5,
+    "Type": 0,
+    "Color": 0
+    }
+    },
+    {
+      "Archetype": "data/json/BackgroundImageArchetype.json",
+      "Name": "bg_2",
+      "Transform": {
+        "Orientation": 38,
+        "xScale": 1,
+        "yScale": 1
+      },
+      "BackgroundImage": {
+        "ParallaxFactor": 0.25,
+        "Depth": 10,
+        "Alpha": 3
+      }
+    },
+    {
+      "Archetype": "data/json/BackgroundImageArchetype.json",
+      "Name": "bg3",
+      "Transform": {
+        "Orientation": 7,
+        "xScale": 1,
+        "yScale": 1
+      },
+      "BackgroundImage": {
+        "ParallaxFactor": 0.25,
+        "Alpha": 3,
+        "FileName": "data/img/bg/bg_3.png",
+        "Depth": 11
+      }
+    },
+    {
+			"Archetype": "data/json/UIArchetype.json",
+			"Name": "score",
+      "UISprite": {
+        "FileName": "data/img/bg/coins.png",
+        "SpriteWidth": 78,
+        "SpriteHeight": 52,
+        "Alpha": 1,
+        "BlendAlpha": 0,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 0,
+        "BlendMode": 1,
+        "Depth": 0,
+        "Frame": 0
+      },
+      "Transform": {
+    "Orientation": 0,
+    "xPosition": -0.6,
+    "yPosition": 0.9,
+    "xScale": 0.04,
+    "yScale": 0.04
+  }
+  },
+    {
+			"Archetype": "data/json/TextSpriteArchetype.json",
+			"Name": "CoinCount",
+       "Behaviors": {
+        "BehaviorsType": 6
+      },
+       "TextSprite":{},
+      "Transform": {
+    "Orientation": 0,
+    "xPosition": -0.5,
+    "yPosition": 0.9,
+    "xScale": 0.04,
+    "yScale": 0.04
+  }
+  },
+    {
+			"Archetype": "data/json/UIArchetype.json",
+			"Name": "life",
+      "UISprite": {
+        "FileName": "data/img/bg/Health.png",
+        "SpriteWidth": 84,
+        "SpriteHeight": 52,
+        "Alpha": 1,
+        "BlendAlpha": 0,
+        "Red": 0,
+        "Green": 0,
+        "Blue": 0,
+        "BlendMode": 1,
+        "Depth": 0,
+        "Frame": 0
+      },
+      "Transform": {
+    "Orientation": 0,
+    "xPosition": -0.9,
+    "yPosition": 0.9,
+    "xScale": 0.04,
+    "yScale": 0.04
+      }
+		},
+     {
+			"Archetype": "data/json/TextSpriteArchetype.json",
+			"Name": "LifeCount",
+       "Behaviors": {
+        "BehaviorsType": 10
+      },
+       "TextSprite":{},
+      "Transform": {
+    "Orientation": 0,
+    "xPosition": -0.8,
+    "yPosition": 0.9,
+    "xScale": 0.04,
+    "yScale": 0.04
+  }
+  },
+   {
+      "TileMap": {
+        "Filename": "Level4",
+        "xPos": 0,
+        "yPos": 0,
+        "xScale": 100,
+        "yScale": 100
+     }
+   },
+   {
+"Archetype": "data/json/MusicControllerArchetype.json",
+			"Name": "MusicController",
+			"MusicController": {
+				"Music": [
+					{
+						"Name": "AlmightyDollar",
+						"Delay": 0,
+						"Probability": 0.25
+					},
+					{
+						"Name": "NoseForTrouble",
+						"Delay": 0,
+						"Probability": 0.25
+					},
+					{
+						"Name": "RockAndAHardPlace",
+						"Delay": 0,
+						"Probability": 0.25
+					},
+					{
+						"Name": "SpaghettiGuitarInSpace",
+						"Delay": 0,
+						"Probability": 0.25
+					}
+				]
+			}
+   }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Type": "Boundry",
+
+  "Transform": {
+    "Orientation": 0,
+    "xPosition": 100,
+    "yPosition": 100,
+    "xScale": 100,
+    "yScale": 100
+  },
+  "Sprite": {
+    "FileName": "",
+    "SpriteWidth": 0,
+    "SpriteHeight": 0,
+    "Alpha": 1,
+    "BlendAlpha":1,
+    "Red": 1,
+    "Green": 1,
+    "Blue": 1,
+    "BlendMode": 5,
+    "Depth": -1,
+    "Frame": 0
+  },
+  "RigidBody": {
+      // a mass of zero means infinite mass
+      "Mass": 0,
+      "Force": false
+    },
+	"Colliders": [
+		{
+			"BoundType": 0,
+			"xHalfSize": 0,
+			"yHalfSize": 0
+		}
+	]
+}

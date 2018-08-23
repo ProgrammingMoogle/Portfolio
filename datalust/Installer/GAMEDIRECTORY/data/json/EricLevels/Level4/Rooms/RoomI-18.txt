@@ -1,0 +1,18 @@
+Key - RoomI
+W=PlatformArchetype,true
+H=EricLevels\Level4\roomswitchs\RoomSwitchIToH,false
+G=Goal,false
+,
+LAYOUT: 18x10
+........H.........
+WWWWW........WWWWW
+WWWWWW........WWWW
+WWWWW........WWWWW
+WWWWWW........WWWW
+WWWWW........WWWWW
+WWWWWW......WWWWWW
+WWWWWWWGGGGWWWWWWW
+WWWWWWWGGGGWWWWWWW
+WWWWWWWGGGGWWWWWWW
+WWWWWWWWWWWWWWWWWW
+,

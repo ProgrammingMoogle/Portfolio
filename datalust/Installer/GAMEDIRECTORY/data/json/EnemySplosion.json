@@ -1,0 +1,53 @@
+{
+  "Type": "EnemyExplosion",
+  "DelayedDestruction": {
+    "Lifetime": 10.0
+  },
+  "ParticleFadeOut": {
+    "Interval": 10.0
+  },
+  "ParticleEmitter": {
+    "Emitter Size X": 0,
+    "Emitter Size Y": 0,
+    "Random Angle": false,
+    "Angle": 0,
+    "Angle Variance": 0.0,
+    "Warmup Time": 0,
+    "Count": 100,
+    "Force X": 0,
+    "Force Y": 0,
+    "Force Variance X": 0.17,
+    "Force Variance Y": 0.17,
+    "Size": 10,
+    "Size Variance": 0,
+    "Rate": 200,
+    "Rate Variance": 0,
+    "Lifetime": 10,
+    "Lifetime Variance": 0
+  },
+  "ParticleSystem": {
+    "Texture": "",
+    "Width": 25,
+    "Height": 25,
+    "Fill": 1,
+    "Depth": 0,
+    "Red": 0.5,
+    "Green": 0.1,
+    "Blue": 0.05,
+    "BlendAlpha": 1,
+    "Alpha": 0.1,
+    "BlendMode": 5,
+    "Space": 0,
+    "Shape": 0
+  },
+  "ParticleAnimator": {
+    "RandForceX": 0,
+    "RandForceY": 0,
+    "ForceX": 0,
+    "ForceY": 0,
+    "Torque": 0,
+    "Gravity": false,
+    "Growth": 0,
+    "Dampening": 2
+  }
+}

@@ -1,0 +1,7 @@
+Key - RedDoor2Wide
+red=true
+xScale=2
+yScale=1
+xOffset=0.5
+yOffset=0
+,

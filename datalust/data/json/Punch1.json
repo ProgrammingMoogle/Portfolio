@@ -1,0 +1,13 @@
+{
+  "Object": [
+    {
+      "Archetype": "data/json/PunchArchetype.json",
+      "Name": "Punch1",
+      "Behaviors": {
+        "BehaviorsType": 5,
+        "Dmg": 0.1,
+        "Scalar": 5
+      }
+    }
+  ]
+}

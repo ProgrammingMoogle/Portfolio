@@ -1,0 +1,4 @@
+----- test_find_stress1 (no cache) ----------------------------------------
+Adding... Done.
+Finding... Done.
+Total comparisons: 1311117500

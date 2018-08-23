@@ -1,0 +1,21 @@
+Key - Room5
+W=PlatformArchetype,true
+H=Hole,true
+E=EricLevels\Level2\Enemies\FollowingEnemy1,false
+D=EricLevels\Level2\Doors\Door2,false
+1=EricLevels\Level2\roomswitchs\RoomSwitch5To4,false
+2=EricLevels\Level2\roomswitchs\RoomSwitch5To6,false
+,
+LAYOUT: 18x10
+.WWWWWWWWWWWWWWWWWW
+.W.W..E.........W.W
+.W.W............W.W
+...WWWWWW.......W.W
+1..W............W.W
+...W....WWWWWWWWW.W
+...W............W.W
+.W.WHHHHHHHHHHHHW.W
+.W................W
+.WWWWWWW.D..WWWWWWW
+.........2.........
+,

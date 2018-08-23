@@ -1,0 +1,22 @@
+{
+  "Type": "ForceEmitterCircle",
+  "Transform": {
+    "Orientation": 0,
+		"xPosition": 0,
+		"yPosition": 0,
+		"xScale": 4,
+		"yScale": 4
+  },
+  "ForceEmitterCircle": {
+    "Force": {
+      "Type": "ForceGravity",
+      "Vec1X": 0,
+      "Vec1Y": 0,
+      "Vec2X": 0,
+      "Vec2Y": 0,
+      "Val1": 0,
+      "Val2": 0
+    },
+    "Radius": 1000
+  }
+}

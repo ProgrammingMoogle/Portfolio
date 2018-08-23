@@ -1,0 +1,25 @@
+{
+  "Type": "TextSprite",
+  "Transform": {
+    "Orientation": 0,
+    "xPosition": 0,
+    "yPosition": 0,
+    "xScale": 1,
+    "yScale": 1
+  },
+  "Sprite": {
+    // If you want a object to have a non-textured mesh (like a white box) give it a sprite
+    // but leave the filename as an empty string
+    "FileName": "",
+    "SpriteWidth": 128,
+    "SpriteHeight": 128,
+    "Alpha": 1,
+    "BlendAlpha": 1,
+    "Red": 1,
+    "Green": 1,
+    "Blue": 1,
+    "BlendMode": 1,
+    "Depth": 0,
+    "Frame": 0
+  }
+}

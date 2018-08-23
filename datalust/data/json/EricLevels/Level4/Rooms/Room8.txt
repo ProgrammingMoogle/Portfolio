@@ -1,0 +1,22 @@
+Key - Room8
+W=PlatformArchetype,true
+H=Hole,true
+D=EricLevels\Level4\Enemies\EnemyDoor2Wide2Tall,false
+E=EricLevels\Level4\Enemies\FollowingEnemy1,false
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch8To3,false
+2=EricLevels\Level4\roomswitchs\RoomSwitch8To9,false
+,
+LAYOUT: 18x10
+.....1.............
+..H.....H........W.
+.WH.....H.HHHHH.WMW
+.WH......H.....HH.W
+.WH.........E..D..W
+.WH.......E..HH...W
+.W.HH.....HHH.....W
+.W...HHHHH........W
+2...E......E......W
+.................HH
+.WWWWWWHHHHWWWWWW..
+,

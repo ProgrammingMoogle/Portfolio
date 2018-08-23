@@ -1,0 +1,22 @@
+Key - RoomH
+W=PlatformArchetype,true
+H=Hole,false
+2=EricLevels\Level4\roomswitchs\RoomSwitch17To2,false
+I=EricLevels\Level4\roomswitchs\RoomSwitch17To18,false
+R=EricLevels\Level4\Doors\Door2Wide,false
+B=EricLevels\Level4\Doors\Door2Tall,false
+,
+LAYOUT: 18x10
+.........2........
+WWWWWWWH....HWWWWW
+WWWW....B...B.WWWW
+WWW............WWW
+WW.......B.B....WW
+W.........R......W
+W.........R......W
+WW..............WW
+WWW............WWW
+WWWW..........WWWW
+WWWWW........WWWWW
+........I.........
+,

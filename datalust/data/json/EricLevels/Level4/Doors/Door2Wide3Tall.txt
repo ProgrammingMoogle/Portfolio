@@ -1,0 +1,6 @@
+Key - Door2Wide3Tall
+xScale=2
+yScale=3
+xOffset=0.5
+yOffset=0
+,

@@ -1,0 +1,24 @@
+Key - Room0
+H=Hole,true
+E=EricLevels\Level4\Enemies\FollowingEnemy1,false
+F=EricLevels\Level4\Enemies\EnemyDoor2Tall,false
+G=EricLevels\Level4\Enemies\EnemyDoor3Tall,false
+2=EricLevels\Level4\roomswitchs\RoomSwitch0To2,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch0To10,false
+3=EricLevels\Level4\roomswitchs\RoomSwitch0To13,false
+5=EricLevels\Level4\roomswitchs\RoomSwitch0To15,false
+,
+LAYOUT: 18x10
+.......10...........
+....H.....H.........
+....H.....H....HHHH.
+.HHH.......HHHH.....
+........E.H..H...E..
+..........H...H....3
+2........F..........
+............E..G....
+........H.........H.
+.HHHHHHH.......HHH..
+........H......H....
+...........5........
+,

@@ -1,0 +1,87 @@
+{
+  "Type": "Punch",
+        "Behaviors": {
+        "BehaviorsType": 9,
+        "Dmg": 10,
+        "Scalar": 5
+      },
+  "Transform": {
+    "Orientation": 0,
+    "xPosition": 0,
+    "yPosition": 0,
+    "xScale": 0.4,
+    "yScale": 0.4
+  },
+  "CircleSprite": {
+    "FileName": "",
+    "SpriteWidth": 63,
+    "SpriteHeight": 60,
+    "Alpha": 0,
+    "BlendAlpha": 1,
+    "Red": 1,
+    "Green": 1,
+    "Blue": 1,
+    "BlendMode": 1,
+    "Depth": 0
+  },
+  "RigidBody": {
+    "Mass": 1000,
+    "Force": false
+  },
+  "Colliders": [
+    {
+      "BoundType": 0,
+      "ColliderGroup": 1,
+      "xHalfSize": 50,
+      "yHalfSize": 50
+    }
+    ]
+    ,
+    "ParticleEmitter" :
+  {
+    "Emitter Size X": 0,
+    "Emitter Size Y": 0,
+    "Random Angle": false,
+    "Angle": 0,
+    "Angle Variance": 0.0,
+    "Warmup Time": 0.0,
+    "Count": 0,
+    "Force X": 0,
+    "Force Y": 0,
+    "Force Variance X": 0,
+    "force Variance Y": 0,
+    "Size": 25,
+    "Size Variance": 0,
+    "Rate": 100,
+    "Rate Variance": 0,
+    "Lifetime": 0.25,
+    "Lifetime Variance": 0
+  },
+  "ParticleSystem" :
+  {
+    "Texture": "",
+    "Width" : 25,
+    "Height" : 25,
+    "Fill" : 1,
+    "Depth" : -0.0000000000001,
+    "Red": 0,
+    "Green" : 1,
+    "Blue": 0,
+    "Alpha":  2,
+    "BlendAlpha": 1,
+    "BlendMode": 5,
+    "Space" : 0,
+    "Shape": 1
+  },
+    "ParticleAnimator":
+  {
+    "RandForceX": 5,
+    "RandForceY": 5,
+    "ForceX" : 0,
+    "ForceY" : 0,
+    "Torque" : 0,
+    "Gravity": false,
+    "Growth" : -100,
+    "Dampening": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Object": 
+  [
+    {
+      "Archetype": "data/json/EnemyBulletArchetype.json",
+      "Name": "EnemyBullet",
+      "Behaviors": {
+         "BehaviorsType": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Key - Room5 
+T=EricLevels\TutorialLevel\LevelText\Text4,false
+W=PlatformArchetype,true
+E=/EricLevels/TutorialLevel/Enemies/StationaryEnemy,false
+S=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch5To4,false
+R=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch5To6,false
+D=EnemyDoorHorizontal,false
+,
+LAYOUT: 18x10
+.WWWWWWWWWWWWWWWWWW
+.W.......T........W
+................E.W
+..................W
+S...............E.W
+..................W
+................E.W
+..................W
+.W................W
+.WWWWWWW.D..WWWWWWW
+.........R.........
+,

@@ -1,0 +1,24 @@
+Key - Room3
+W=PlatformArchetype,true
+H=Hole,true
+1=EricLevels\Level2\roomswitchs\RoomSwitch3To2,false
+2=EricLevels\Level2\roomswitchs\RoomSwitch3To4,false
+3=EricLevels\Level2\roomswitchs\RoomSwitch3To4(2),false
+E=EricLevels\Level2\Enemies\StationaryEnemyDiagonal,false
+D=EricLevels\Level2\Doors\Door2,false
+M=HealthPickup,false
+,
+LAYOUT: 18x10
+....1.............
+WW.....WWWWWWWWWWW
+W.......WW.......W
+WHHH....WW.M.M.M.W
+W..H.W..WW.......W
+WE.H.W..WW.M.M.M.W
+W..H.W..WW.......W
+W..H.W..WW.M.M.M.W
+WHHH....WW.......W
+W.......WW.......W
+WWW.D.WWWWWW...WWW
+....2........3....
+,

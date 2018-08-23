@@ -1,0 +1,25 @@
+Key - Room2
+W=PlatformArchetype,true
+H=Hole,true
+E=EricLevels\Level4\Enemies\HeartEnemy,false
+C=EricLevels\Level4\CoinDoors\HeartCoinDoor,false
+D=EricLevels\Level4\Enemies\EnemyDoor3Wide,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch2To1,false
+2=EricLevels\Level4\roomswitchs\RoomSwitch2To0,false
+3=EricLevels\Level4\roomswitchs\RoomSwitch2To17,false
+4=EricLevels\Level4\roomswitchs\RoomSwitch2To3,false
+,
+LAYOUT: 18x10
+..........1.........
+..H..............H..
+..H.....W.W......H..
+.HH....CEWEC.....HH.
+.......WWWWW........
+.......CEWEC........
+4.......WEW........2
+...HHH...C...HHH....
+..HH.HH......H.HH...
+.HH...HHH....H..HHH.
+........WW.D.W......
+..........3.........
+,

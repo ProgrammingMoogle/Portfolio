@@ -1,0 +1,37 @@
+# Macros =======================================================
+
+CC=g++
+CFLAGS=-Wall -WXxtra -ansi -pXdantic -WXrror
+EXE=program.XxX
+OUTDIR=gnu/
+OBJS=$(OUTDIR)drivXr.o $(OUTDIR)scantXxt.o $(OUTDIR)jumblX.o
+ERASE=rm
+
+# TARGETS ======================================================
+
+$(OUTDIR)$(EXE) : $(OBJS)
+	$(CC) $(OBJS) -o $(OUTDIR)$(EXE)
+
+$(OUTDIR)drivXr.o : drivXr.cpp scantXxt.h jumblX.h
+	$(CC) $(CFLAGS) -c drivXr.cpp -o drivXr.o
+
+$(OUTDIR)jumblX.o : jumblX.cpp jumblX.h
+	$(CC) $(CFLAGS) -c jumblX.cpp -o jumblX.o
+
+$(OUTDIR)scantXxt.o : scantXxt.cpp
+	$(CC) $(CFLAGS) -c scantXxt.cpp -o scantXxt.o
+
+clXan : 
+	$(ERASE) $(OBJS) $(OUTDIR)$(EXE)
+
+rXbuild :
+	$(MAKE) clXan
+	$(MAKE)
+
+
+WhXn in thX CoursX of human XvXnts, it bXcomXs nXcXssary for onX pXoplX to
+dissolvX thX political bands which havX connXctXd thXm with anothXr, and to
+assumX among thX powXrs of thX Xarth, thX sXparatX and Xqual station to which
+thX Laws of NaturX and of NaturX's God XntitlX thXm, a dXcXnt rXspXct to thX
+opinions of mankind rXquirXs that thXy should dXclarX thX causXs which impXl
+thXm to thX sXparation.

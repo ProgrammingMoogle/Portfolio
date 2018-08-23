@@ -1,0 +1,246 @@
+const char * vs_source_color =
+"#version 330\n"
+"uniform mat4 transform;\n"
+"layout (location = 0) in vec3 pos;\n"
+"void main() {\n"
+"  gl_Position = /*transform **/ vec4(pos,1);\n"
+"}\n";
+
+const char * fs_source_color =
+"#version 330\n"
+"uniform vec4 color;\n"
+"in vec2 TexCoord;\n"
+"out vec4 FragColor;\n"
+"void main() {\n"
+"  FragColor = color;\n"
+"}";
+
+const char * vs_source_tex =
+"#version 330\n"
+"uniform mat4 transform;\n"
+"layout (location = 0) in vec3 pos;\n"
+"layout (location = 1) in vec2 tex;\n"
+"out vec2 TexCoord;\n"
+"void main() {\n"
+"  gl_Position = /*transform * */vec4(pos,1);\n"
+"  TexCoord = tex;\n"
+"}\n";
+
+const char * fs_source_tex =
+"#version 330\n"
+"uniform vec2 tex_offset;\n"
+"uniform sampler2D samp;\n"
+"uniform vec4 color;\n"
+"in vec2 TexCoord;\n"
+"out vec4 FragColor;\n"
+"void main() {\n"
+"  FragColor = texture(samp, TexCoord + tex_offset);\n"
+"}";
+
+const float verts[] = {
+  -0.5f,  0.5f, 0.0f,
+  0.5f,  0.5f, 0.0f,
+  0.0f, -0.5f, 0.0f,
+};
+
+Graphics::TexCoord texcoord[4] = {
+  0, 0,
+  1, 0,
+  1, 1,
+  0, 1,
+};
+
+Graphics::Renderer::Renderer(Window& win) : win_(&win), mesh_(texcoord, 32, 32) {
+  /*
+  Dummy Shader Code. TODO move this somewhere else
+  */
+  char infoLog[512];
+  GLint vertex_shader_color = glCreateShader(GL_VERTEX_SHADER);
+  GLint fragment_shader_color = glCreateShader(GL_FRAGMENT_SHADER);
+  program_color_ = glCreateProgram();
+
+  glShaderSource(vertex_shader_color, 1, &vs_source_color, NULL);
+  glShaderSource(fragment_shader_color, 1, &fs_source_color, NULL);
+
+  glCompileShader(vertex_shader_color);
+  glCompileShader(fragment_shader_color);
+
+  glAttachShader(program_color_, vertex_shader_color);
+  glAttachShader(program_color_, fragment_shader_color);
+
+  glLinkProgram(program_color_);
+
+  GLint compile1_color, compile2_color, link_color;
+  glGetShaderiv(vertex_shader_color, GL_COMPILE_STATUS, &compile1_color);
+  glGetShaderiv(fragment_shader_color, GL_COMPILE_STATUS, &compile2_color);
+  glGetProgramiv(program_color_, GL_LINK_STATUS, &link_color);
+
+  if(!compile1_color) {
+    glDeleteShader(vertex_shader_color);
+    glDeleteShader(fragment_shader_color);
+    glDeleteProgram(program_color_);
+    glGetShaderInfoLog(vertex_shader_color, 512, NULL, infoLog);
+    std::string msg = "Failed to Compile Color Vertex Shader: ";
+    msg += infoLog;
+    throw std::runtime_error(msg.c_str());
+  }
+  if(!compile2_color) {
+    glDeleteShader(vertex_shader_color);
+    glDeleteShader(fragment_shader_color);
+    glDeleteProgram(program_color_);
+    glGetShaderInfoLog(fragment_shader_color, 512, NULL, infoLog);
+    std::string msg = "Failed to Compile Color Fragment Shader: ";
+    msg += infoLog;
+    throw std::runtime_error(msg.c_str());
+  }
+  if(!link_color) {
+    glDeleteShader(vertex_shader_color);
+    glDeleteShader(fragment_shader_color);
+    glDeleteProgram(program_color_);
+    glGetShaderInfoLog(vertex_shader_color, 512, NULL, infoLog);
+    std::string msg = "Failed to Link Color Shader Program: ";
+    msg += infoLog;
+    throw std::runtime_error(msg.c_str());
+  }
+
+  glDeleteShader(vertex_shader_color);
+  glDeleteShader(fragment_shader_color);
+
+  GLint vertex_shader_tex = glCreateShader(GL_VERTEX_SHADER);
+  GLint fragment_shader_tex = glCreateShader(GL_FRAGMENT_SHADER);
+  program_tex_ = glCreateProgram();
+
+  glShaderSource(vertex_shader_tex, 1, &vs_source_tex, NULL);
+  glShaderSource(fragment_shader_tex, 1, &fs_source_tex, NULL);
+
+  glCompileShader(vertex_shader_tex);
+  glCompileShader(fragment_shader_tex);
+
+  glAttachShader(program_tex_, vertex_shader_tex);
+  glAttachShader(program_tex_, fragment_shader_tex);
+
+  glLinkProgram(program_tex_);
+
+  GLint compile1_tex, compile2_tex, link_tex;
+  glGetShaderiv(vertex_shader_tex, GL_COMPILE_STATUS, &compile1_tex);
+  glGetShaderiv(fragment_shader_tex, GL_COMPILE_STATUS, &compile2_tex);
+  glGetProgramiv(program_tex_, GL_LINK_STATUS, &link_tex);
+
+  glDeleteShader(vertex_shader_tex);
+  glDeleteShader(fragment_shader_tex);
+
+  if(!(compile1_tex && compile2_tex && link_tex)) {
+    glDeleteProgram(program_tex_);
+    glGetShaderInfoLog(vertex_shader_tex, 512, NULL, infoLog);
+    throw std::runtime_error("Failed to Compile/Link Shader Texture");
+  }
+
+  umat_col_ = glGetUniformLocation(program_color_, "transform");
+  ucol_col_ = glGetUniformLocation(program_color_, "color");
+  apos_col_ = glGetAttribLocation(program_color_, "pos");
+
+  uoff_tex_ = glGetUniformLocation(program_tex_, "tex_offset");
+  umat_tex_ = glGetUniformLocation(program_tex_, "transform");
+  atex_tex_ = glGetAttribLocation(program_tex_, "tex");
+  apos_tex_ = glGetAttribLocation(program_tex_, "pos");
+
+
+  //glGenBuffers(1, &verts_);
+  //glBindBuffer(GL_ARRAY_BUFFER, verts_);
+  //glBufferData(GL_ARRAY_BUFFER, sizeof(verts), verts, GL_STATIC_DRAW);
+  //glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+  glEnableVertexAttribArray(apos_col_);
+  glEnableVertexAttribArray(apos_tex_);
+  glEnableVertexAttribArray(atex_tex_);
+
+  glDisable(GL_CULL_FACE);
+}
+
+void Graphics::Renderer::draw() {
+  win_->activate();
+  glClearColor(0.0f, 0.5f, 1.0f, 1.0f);
+  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+  glm::mat4 view(1.0f);
+  glm::mat4 w2cam(1.0f);
+
+  //view = glm::translate(view, glm::vec3(-1, 1, 0));
+  if(Camera::getActiveCamera()) {
+    glm::mat4 cam2w = Camera::getActiveCamera()->GetParent().Find<Transform>()->getGLTransform();
+    w2cam = glm::inverse(cam2w);
+  }
+
+  view = glm::scale(view, glm::vec3(2.0f / win_->width(), 2.0f / win_->height(), 1));
+
+
+  float w, h;
+
+  for(auto it : graphic_list_) {
+    it->getMesh().getSize(&w, &h);
+    glm::mat4 m(1.0f);
+    glm::mat4 t;
+    glm::vec2 uvoffset;
+
+    m = glm::scale(m, glm::vec3(w, h, 1.0f));
+
+
+    if(it->graphicType() == Graphic::Type::Sprite) {
+      Sprite * spr = static_cast<Sprite*>(&*it);
+
+      t = spr->GetParent().Find<Transform>()->getGLTransform();
+
+      uvoffset.x = spr->uv_offset_.u;
+      uvoffset.y = spr->uv_offset_.v;
+    }
+    else if(it->graphicType() == Graphic::Type::Background) {
+      // Background * bg = static_cast<Background*>(&*it);
+    }
+
+    Color color;
+    it->getBlendColor(&color);
+
+    if(it->getTexture().loaded()) {
+      glUseProgram(program_tex_);
+      it->getTexture().bindTexture();
+      glUniform2fv(uoff_tex_, 1, &uvoffset[0]);
+      glUniformMatrix4fv(umat_tex_, 1, false, glm::value_ptr(view * w2cam * t * m));
+      it->getMesh().bindVertexData();
+      glVertexAttribPointer(apos_tex_, 3, GL_FLOAT, GL_FALSE, 0, 0);
+      it->getMesh().bindTexCoordData();
+      glVertexAttribPointer(atex_tex_, 2, GL_FLOAT, GL_FALSE, 0, 0);
+      it->getMesh().bindFaceData();
+    }
+    else {
+      glUseProgram(program_color_);
+      glUniform4fv(ucol_col_, 1, (float*)&color);
+      glUniformMatrix4fv(umat_col_, 1, false, glm::value_ptr(view * w2cam * t * m));
+      it->getMesh().bindVertexData();
+      glVertexAttribPointer(apos_col_, 3, GL_FLOAT, GL_FALSE, 0, 0);
+      it->getMesh().bindFaceData();
+    }
+
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+    glBindTexture(GL_TEXTURE_2D, 0);
+  }
+
+  // mesh_.GetSize(&w, &h);
+
+  // m = glm::scale(m, glm::vec3(w, h, 1.0f));
+
+  // glUseProgram(program_);
+  // glUniformMatrix4fv(umat_, 1, false, glm::value_ptr(view * m));
+  // mesh_.BindVertexData();
+  // glVertexAttribPointer(apos_, 3, GL_FLOAT, GL_FALSE, 0, 0);
+  // mesh_.BindFaceData();
+  // glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+  // glBindBuffer(GL_ARRAY_BUFFER, 0);
+  // glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+
+  win_->swapBuffers();
+  if(glGetError() != GL_NO_ERROR)
+    throw std::runtime_error("GL_ERROR");
+}

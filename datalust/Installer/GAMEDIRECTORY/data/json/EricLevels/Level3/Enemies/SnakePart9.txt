@@ -1,0 +1,30 @@
+Key - SnakePart9
+xScale=1
+yScale=1
+xOffset=0
+yOffset=0
+health=7
+stationary=false
+following=false
+loop=true
+speed=1
+fires=true
+firesAtPlayer=false
+firingDirection=(0,0)
+fireRate=1.5
+bulletSpeed=5
+,
+NOTE Offsets for pacing enemies
+(6,0)
+(6,1)
+(-9,1)
+(-9,2)
+(6,2)
+(6,3)
+(-9,3)
+(-9,4)
+(6,4)
+(6,5)
+(-9,5)
+(-9,0)
+,

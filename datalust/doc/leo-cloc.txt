@@ -1,0 +1,35 @@
+cloc --by-file-by-lang --include-lang=C++,GLSL .\src\Physics\ .\src\Transform\
+.\src\Behaviors\PlatformBehavior.cpp
+      28 text files.
+      28 unique files.
+      16 files ignored.
+
+github.com/AlDanial/cloc v 1.72  T=1.00 s (14.0 files/s, 2583.0 lines/s)
+---------------------------------------------------------------------------------------
+File                                                blank        comment           code
+---------------------------------------------------------------------------------------
+.\src\Physics\CollisionDetect.cpp                      55             63            239
+.\src\Physics\ForceGenerator.cpp                       54             33            223
+.\src\Physics\ContactResolver.cpp                      59             42            188
+.\src\Physics\Colliders.cpp                            35             38            181
+.\src\Transform\Transform.cpp                          44            245            142
+.\src\Physics\ForceEmitter.cpp                         33             35            124
+.\src\Physics\RigidBody.cpp                            26             64            122
+.\src\Physics\BoundArea.cpp                            32             30             83
+.\src\Physics\ParticleEmitter.cpp                      17             17             81
+.\src\Behaviors\PlatformBehavior.cpp                    8             12             54
+.\src\Physics\ForceRegistry.cpp                        14             21             49
+.\src\Physics\Physics.cpp                              14             20             35
+.\src\Physics\Particle.cpp                              8             12             19
+.\src\Physics\stub.cpp                                  1             11              0
+---------------------------------------------------------------------------------------
+SUM:                                                  400            643           1540
+---------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+C++                             14            400            643           1540
+-------------------------------------------------------------------------------
+SUM:                            14            400            643           1540
+-------------------------------------------------------------------------------

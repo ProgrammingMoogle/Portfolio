@@ -1,0 +1,21 @@
+Key - RoomC
+W=PlatformArchetype,true
+H=Hole,true
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+D=EricLevels\Level4\Doors\Door2Wide,false
+R=EricLevels\Level4\Doors\Door2Wide,false
+B=EricLevels\Level4\Doors\Door2Tall,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch12To10,false
+,
+LAYOUT: 18x10
+.WWWWWWHHWWWWWWWWWW
+.WM.W..B.EWE.B..E.W
+.W..W.....W.......W
+1...WR.WR.WR.WWWD.W
+....W..H..H..H.E.EW
+.W..W..H.EH.EHE.E.W
+.WR.WR.WR.WR.W.M..W
+.W..B..W..B..WM.M.H
+.W.E...W.E..EW.M..H
+.WWWWWWWWWWWWWWWWH.
+,

@@ -1,0 +1,19 @@
+Key - BossEnemy1
+xScale=2
+yScale=2
+xOffset=0.5
+yOffset=-0.5
+health=25
+stationary=false
+following=true
+loop=false
+speed=1
+fires=true
+firesAtPlayer=true
+firingDirection=(0,0)
+fireRate=0.5
+bulletSpeed=5
+,
+NOTE: Offsets for pacing enemies
+(0,0)
+,

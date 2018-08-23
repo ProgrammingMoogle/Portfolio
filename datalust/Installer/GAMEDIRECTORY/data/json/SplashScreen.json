@@ -1,0 +1,26 @@
+{
+  "Object": [
+    {
+      "Archetype": "data/json/CameraArchetype.json",
+      "Name": "cam",
+      "Camera": {
+        "isActive": true
+      }
+    },
+    {
+      "Archetype": "data/json/UIArchetype.json",
+      "Name": "bg1",
+      "LifeTime": 2,
+      "UISprite": {
+        "FileName": "data/img/bg/DigiPen_RED_1024px.png",
+        "SpriteWidth": 1024,
+        "SpriteHeight": 247,
+        "Alpha": 1.0
+      },
+      "Transform": {
+        "xScale": 0.8000,
+        "yScale": 0.3538
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Levels": [
+    "data/json/SplashScreen.json", // 1
+    "data/json/MainMenu.json",     // 2
+    "data/json/DemoState.json",    // 3
+    "data/json/Level1.json",     // 4
+    "data/json/HowToMenu.json",  // 5
+    "data/json/CreditMenu.json", //6
+    "data/json/QuitScreen.json", // 7
+    "data/json/PauseMenu.json", // 8
+	"data/json/WinState.json", // 9
+	"data/json/LevelQuit.json", // 10
+	"data/json/Level2.json", // 11
+	"data/json/CreditTeam.json",// 12
+	"data/json/Instructors.json",//13
+	"data/json/Executives.json",  //14
+	"data/json/SpecialThanks.json", // 15
+	"data/json/Copyright.json", // 16
+	"data/json/Level3.json", //17
+	"data/json/Level4.json" // 18
+  ]
+}

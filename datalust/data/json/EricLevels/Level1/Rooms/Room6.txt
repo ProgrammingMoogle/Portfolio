@@ -1,0 +1,21 @@
+Key - Room6 STUFF TO ADD: 
+1=EricLevels\Level1\Enemies\StationaryEnemyShootDown,false 
+2=EricLevels\Level1\Enemies\StationaryEnemyShootUP,false 
+D=EnemyDoor,false
+W=PlatformArchetype,true
+H=Hole,true
+3=EricLevels\Level1\roomswitchs\RoomSwitch6To3,false
+7=EricLevels\Level1\roomswitchs\RoomSwitch6To7,false
+,
+LAYOUT: 18x10
+.WWWWWWWWWWWWWWWWWW.
+.W...HH1HH1HH1HH..W.
+.W...HH.HH.HH.HH..W.
+.....HH.HH.HH.HH....
+3.................D7
+....................
+.....HH.HH.HH.HH....
+.W...HH.HH.HH.HH..W.
+.W...HH2HH2HH2HH..W.
+.WWWWWWWWWWWWWWWWWW.
+,

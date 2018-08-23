@@ -1,0 +1,26 @@
+Key - Room1
+W=PlatformArchetype,true
+H=Hole,true
+E=EricLevels\Level2\Enemies\FollowingEnemy1,false
+B=EricLevels\Level2\Doors\BlueDoor1,false
+R=EricLevels\Level2\Doors\RedDoor3,false
+C=EricLevels\Level2\CoinDoors\CoinDoor1,false
+M=HealthPickup,false
+D=EricLevels\Level2\Doors\Door2,false
+1=EricLevels\Level2\roomswitchs\RoomSwitch6To5,false
+2=EricLevels\Level2\roomswitchs\RoomSwitch6To7,false
+,
+LAYOUT: 18x10
+........1.........
+WWWWWWW....WWWWWWW
+W................W
+W..E..R....B.E.E.W
+W................W
+WHHHHHW....WHHHHHW
+WHHHHHW....WHHHHHW
+W................W
+WE.E.EB....C.M.M.W
+W................W
+WWWWWWW.D..WWWWWWW
+........2.........
+,

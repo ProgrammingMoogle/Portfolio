@@ -1,0 +1,22 @@
+Key - Room2 // stuffTOADD:
+P=EricLevels\Level1\Enemies\PacingEnemy1,false 
+O=EricLevels\Level1\Enemies\PacingEnemy2,false 
+D=EricLevels\Level1\Doors\DoorHorizontal,false
+W=PlatformArchetype,true
+H=Hole,true
+1=EricLevels\Level1\roomswitchs\RoomSwitch2To1,false
+2=EricLevels\Level1\roomswitchs\RoomSwitch2To3,false
+,
+LAYOUT: 18x10
+.WWWWWWWWWWWWWWWWWW
+.W....H...........W
+.W....H.....P.....W
+......H...........W
+1.....H...........W
+......H...........W
+.W....H...........W
+.W....H.....O.....W
+.W....H...........W
+.W.D.WWWWWWWWWWWWWW
+...2...............
+,

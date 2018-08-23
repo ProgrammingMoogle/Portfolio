@@ -1,0 +1,18 @@
+I've included two black box tests to help with testing your code.
+
+(1) TextureBitmapTest.obj
+    -- Tests the default and non-default constructors of the 'Texture' class.
+    -- To compile from the Visual Studio 2015 command prompt:
+           cl /EHsc TextureBitmapTest.obj Texture.cpp Affine.lib
+    -- Produces the executable 'TextureBitmapTest.exe'
+
+(2) TextureTransformTest.obj
+    -- Tests the uv/UV/RGB functions of the 'Texture' class.
+    -- To compile from the Visual Studio 2015 command prompt:
+           cl /EHsc TextureTransformTest.obj Texture.cpp Affine.lib
+    -- Produces the executable 'TextureTransformTest.exe'
+
+The executables produced can be run from the command line.  Each program will attempt to create, read, modify, and test several random bitmap images.  If the program succeeds, a message to that effect will be printed.  Otherwise a diagnostic will be printed, or the program will crash.
+
+Note that each program will leave behind a bitmap image, which you will need to delete yourself.
+

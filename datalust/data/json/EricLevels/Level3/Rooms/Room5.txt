@@ -1,0 +1,24 @@
+Key - Room5
+W=PlatformArchetype,true
+3=EricLevels\Level3\roomswitchs\RoomSwitch5To3,false
+6=EricLevels\Level3\roomswitchs\RoomSwitch5To6,false
+B=EricLevels\Level3\ColorDoors\BlueDoor1,false
+R=EricLevels\Level3\ColorDoors\RedDoor1,false
+Q=EricLevels\Level3\ColorDoors\RedDoor2,false
+4=EricLevels\Level3\ColorDoors\BlueDoor2,false
+E=EricLevels\Level3\Enemies\FollowingEnemy4,false
+5=EricLevels\Level3\Enemies\EnemyDoor1,false
+,
+LAYOUT: 18x10
+..3................
+W...WWWWWWWWWWWWWW.
+W..WW..E4..E4...EW.
+W.WWW............W.
+W.WWWRWRWRWRWRWQ.W.
+W.B.B.B.BEB.B.B....
+WRWRWRWRWRWRWRW..56
+W.BEBEB.B.B.BEB....
+WRWRWRWRWRWRWRWQ.W.
+W.B.B.BEB.B.B.B.EW.
+WWWWWWWWWWWWWWWWWW.
+,

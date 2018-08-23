@@ -1,0 +1,21 @@
+Key - Room1 //T=EricLevels/TutorialLevel/roomswitchs/GoalBlock,false
+W=PlatformArchetype,true
+B=BlueDoorArchetype,false
+G=BlueGun,false
+S=EricLevels/TutorialLevel/roomswitchs/RoomSwitch1To2,false
+T=EricLevels\TutorialLevel\LevelText\Text1,false
+5=EricLevels/TutorialLevel/roomswitchs/GoalBlock,false
+E=EricLevels\Level1\Enemies\FollowingEnemy1,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWW.
+W................W.
+W..................
+W.P.WWWWWWWWWW...BS
+W...WWWWWWWWWW.....
+WWWWWWWWWWWWWW...W.
+W......T.........W.
+W.G..............W.
+W................W.
+WWWWWWWWWWWWWWWWWW.
+,

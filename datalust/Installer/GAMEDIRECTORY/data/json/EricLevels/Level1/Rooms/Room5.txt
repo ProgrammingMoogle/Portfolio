@@ -1,0 +1,18 @@
+Key - Room5
+W=PlatformArchetype,true
+M=HealthPickup,false
+3=EricLevels\Level1\roomswitchs\RoomSwitch5To3,false
+,
+LAYOUT: 18x10
+.......3..........
+WWWWWW....WWWWWWWW
+WWW............WWW
+WW..............WW
+W...M........M...W
+WW..............WW
+WW..............WW
+W...M........M...W
+WW......WW......WW
+WWW....WWWW....WWW
+WWWWWWWWWWWWWWWWWW
+,

@@ -1,0 +1,22 @@
+Key - Room7
+W=PlatformArchetype,true
+H=Hole,true
+1=EricLevels\Level2\roomswitchs\RoomSwitch7To6,false
+2=EricLevels\Level2\roomswitchs\RoomSwitch7To8,false
+D=EricLevels\Level2\Doors\Door5,false
+E=EricLevels\Level2\Enemies\PacingShootingEnemy3,false
+R=EricLevels\Level2\Enemies\PacingShootingEnemy3,false
+,
+LAYOUT: 18x10
+.........1.........
+.WWWWWWW....WWWWWWW
+2D................W
+..................W
+.W................W
+.WHHWWHHHWWHHHWWHHW
+.W.E..E..E..E..E..W
+.W..R..R..R..R..R.W
+.W.E..E..E..E..E..W
+.W..R..R..R..R..R.W
+.WWWWWWWWWWWWWWWWWW
+,

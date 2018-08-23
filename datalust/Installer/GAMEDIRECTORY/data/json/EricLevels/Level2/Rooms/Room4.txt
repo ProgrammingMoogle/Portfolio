@@ -1,0 +1,27 @@
+Key - Room4
+W=PlatformArchetype,true
+1=EricLevels\Level2\roomswitchs\RoomSwitch4To3,false
+Q=EricLevels\Level2\roomswitchs\RoomSwitch4To3(2),false
+2=EricLevels\Level2\roomswitchs\RoomSwitch4To5,false
+E=EricLevels\Level2\Enemies\PacingEnemy1,false
+F=EricLevels\Level2\Enemies\PacingEnemy2,false
+3=EricLevels\Level2\Doors\BlueDoor1,false
+4=EricLevels\Level2\Doors\BlueDoor2,false
+5=EricLevels\Level2\Doors\RedDoor1,false
+6=EricLevels\Level2\Doors\RedDoor2,false
+D=EricLevels\Level2\Doors\Door3,false
+C=EricLevels\Level2\CoinDoors\CoinDoor2,false
+,
+LAYOUT: 18x10
+....1........Q.....
+WWW...WWWWWW.C.WWW.
+WW..............WW.
+W.......6..4.....W.
+W......3..E.5p......
+W........WW......D2
+W......5.WW........
+W........F..3......
+W.......4.6......W.
+WW..............WW.
+WWWWWWWWWWWWWWWWWW.
+,

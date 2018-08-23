@@ -1,0 +1,17 @@
+Key - Room4 STUFF TO ADD: 
+B=EricLevels\Level1\Enemies\PaceBossShootRight,false
+W=PlatformArchetype,true
+3=EricLevels\Level1\roomswitchs\RoomSwitch4To3,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWW.
+W..............WWW.
+W...............WW.
+W..B.........W.....
+W............W....3
+W............W.....
+W............W.....
+W...............WW.
+W..............WWW.
+WWWWWWWWWWWWWWWWWW.
+,

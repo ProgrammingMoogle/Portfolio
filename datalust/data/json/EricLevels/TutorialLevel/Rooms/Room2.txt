@@ -1,0 +1,22 @@
+Key - Room2 
+T=EricLevels\TutorialLevel\LevelText\Text2,false
+W=PlatformArchetype,true
+B=BlueDoorHorizontalArchetype,false
+R=RedDoorArchetype,false
+S=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch2To3,false
+F=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch2To1,false
+D=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch2To4,false
+,
+LAYOUT: 18x10
+.........S..........
+.WWWWWWW.B.WWWWWWWW.
+.WWWWWWW...WWWWWWWW.
+.........T..........
+F.................RD
+....................
+.WWWWWWWWWWWWWWWWWW.
+.WWWWWWWWWWWWWWWWWW.
+.WWWWWWWWWWWWWWWWWW.
+.WWWWWWWWWWWWWWWWWW.
+.WWWWWWWWWWWWWWWWWW.
+,

@@ -1,0 +1,20 @@
+Key - Room9  
+T=EricLevels\TutorialLevel\LevelText\Text9,false
+W=PlatformArchetype,true
+R=RedDoorArchetype,false
+B=BlueDoorArchetype,false
+S=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch9To6,false
+G=EricLevels/TutorialLevel/roomswitchs/GoalBlock,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWW.
+WWWW.WW.WW.WW.WW.W.
+WWW..W..W..W..W..W.
+W...........T......
+WG...R..B..R..B...S
+W..................
+WWW..W..W..W..W..W.
+WWWW.WW.WW.WW.WW.W.
+WWWWWWWWWWWWWWWWWW.
+WWWWWWWWWWWWWWWWWW.
+,

@@ -1,0 +1,19 @@
+Key - Room3 
+T=EricLevels\TutorialLevel\LevelText\Text3,false
+W=PlatformArchetype,true
+S=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch3To2,false
+G=RedGun,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWWW
+WWWWWWWW...WWWWWWWW
+WWWWWW.......WWWWWW
+WWWWW....T....WWWWW
+WWWWW....G....WWWWW
+WWWWW.........WWWWW
+WWWWWW.......WWWWWW
+WWWWWWW.....WWWWWWW
+WWWWWWWW...WWWWWWWW
+WWWWWWWW...WWWWWWWW
+.........S.........
+,

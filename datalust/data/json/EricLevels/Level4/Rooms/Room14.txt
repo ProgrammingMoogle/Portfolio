@@ -1,0 +1,20 @@
+Key - RoomE
+W=PlatformArchetype,true
+E=EricLevels\Level4\Enemies\FollowingEnemy1,false
+F=EricLevels\Level4\Doors\Door2Tall,false
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch14To13,false
+,
+LAYOUT: 18x10
+...............1..
+WWWWWWWWWWWWWWW..W
+W.MWE..W..W...W..W
+WM.W...WE.W...W..W
+W.MWE..W..W...W..W
+WM.F...F..F...F..W
+W.M..............W
+WM.WE..W..W...W..W
+W.MW...WE.W...W..W
+WM.WE..W..WE..W..W
+WWWWWWWWWWWWWWWWWW
+,

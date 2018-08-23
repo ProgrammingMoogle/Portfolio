@@ -1,0 +1,45 @@
+----- test_insert_after1 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+ 104: betty
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+ 104: betty

@@ -1,0 +1,19 @@
+Key - Room7 need to add : 
+T=EricLevels\TutorialLevel\LevelText\Text7,false
+W=PlatformArchetype,true
+E=/EricLevels/TutorialLevel/Enemies/StationaryEnemy,false
+S=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch7To6,false
+H=Hole,true
+,
+LAYOUT: 18x10
+.WWWWWWWWWWWWWWWWWW
+.W.......T........W
+.W.....HHHHH......W
+.......H...H......W
+S......H.E.H......W
+.......H...H......W
+.W.....HHHHH......W
+.W................W
+.W................W
+.WWWWWWWWWWWWWWWWWW
+,

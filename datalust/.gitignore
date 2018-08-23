@@ -1,0 +1,8 @@
+build/*
+.vscode/.cmaketools.json
+.vscode/*.bat
+src/3rdparty/glew-2.1.0/glew.pc
+.vs/*
+GAM200.dir
+*.orig
+*.wav

@@ -1,0 +1,22 @@
+Key - RoomB
+W=PlatformArchetype,true
+H=Hole,true
+E=EricLevels\Level4\Enemies\RightShootingEnemy,false
+F=EricLevels\Level4\Enemies\EnemyDoor7Tall,false
+D=EricLevels\Level4\Doors\Door2Wide,false
+M=EricLevels\Level4\HealthPickups\HealthPickup1,false
+1=EricLevels\Level4\roomswitchs\RoomSwitch11To10,false
+,
+LAYOUT: 18x10
+...WWWWWWWWWWWWWWW
+..H...E.....E.H..W
+HH....E..E....H..W
+W.E..F..F..FE.H..W
+W.E......E....H..W
+W.....E.....E.H..W
+H.....E..E....H..W
+H.MM.WWWW..WHHH..W
+HMMMMW...........W
+HHHHWW..WWWWWWWWWW
+......1...........
+,

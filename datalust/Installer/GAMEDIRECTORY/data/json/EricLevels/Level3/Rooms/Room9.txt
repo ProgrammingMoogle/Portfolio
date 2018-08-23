@@ -1,0 +1,22 @@
+Key - Room9
+W=PlatformArchetype,true
+8=EricLevels\Level3\roomswitchs\RoomSwitch9To8,false
+0=EricLevels\Level3\roomswitchs\RoomSwitch9To0,false
+D=EricLevels\Level3\Doors\Door3,false
+C=EricLevels\Level3\CoinDoors\CoinDoor3,false
+E=EricLevels\Level3\Enemies\FollowingEnemy1,false
+M=EricLevels\Level3\HealthPickups\HealthPickup1,false
+,
+LAYOUT: 18x10
+.WWWWWWWWWWWWWWWWWW
+.WM........C.M.M.MW
+.W......E.........W
+.W.........WWWWWWWW
+8..........C.M.M.MW
+..................W
+.W.........WWWWWWWW
+.W......E..C.M.M.MW
+.WM...............W
+.WWWWWWWWD.WWWWWWWW
+.........0.........
+,

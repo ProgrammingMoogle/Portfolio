@@ -1,0 +1,30 @@
+Key - Room10
+W=PlatformArchetype,true
+9=EricLevels\Level3\roomswitchs\RoomSwitch0To9,false
+4=EricLevels\Level3\roomswitchs\RoomSwitch0To4,false
+D=EricLevels\Level3\Doors\Door2,false
+O=EricLevels\Level3\Doors\Door3,false
+E=EricLevels\Level3\Enemies\FollowingEnemy1,false
+F=EricLevels\Level3\Enemies\FollowingEnemy1,false
+G=EricLevels\Level3\Enemies\FollowingEnemy1,false
+I=EricLevels\Level3\Enemies\FollowingEnemy1,false
+J=EricLevels\Level3\Enemies\FollowingEnemy1,false
+K=EricLevels\Level3\Enemies\FollowingEnemy1,false
+L=EricLevels\Level3\Enemies\FollowingEnemy1,false
+M=EricLevels\Level3\Enemies\FollowingEnemy1,false
+N=EricLevels\Level3\Enemies\FollowingEnemy1,false
+P=EricLevels\Level3\Enemies\FollowingEnemy1,false
+,
+LAYOUT: 18x10
+.........9.........
+.WWWWWWWW..WWWWWWWW
+.W................W
+.WWWHHHHHO.HHHHHWWW
+.W................W
+4D................W
+..................W
+.W................W
+.W................W
+.W.EFGIJKLMNP.....W
+.WWWWWWWWWWWWWWWWWW
+,

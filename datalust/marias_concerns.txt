@@ -1,0 +1,15 @@
+How do I even make a new object? I need a tutorial to make a collidable object that will restart the level.
+Inconsistant json files. There's a huge DemoState and then architypes? What do I use?
+How do HUD objects?
+Why do platforms have a move and jump value?
+How do friction values?
+Players walking into each other needs to not move the other player
+I can sometimes jump twice, sometimes jump 4 times
+Platform collider and actual platform are not the same.
+The tank seems to jump, then brings up the spring. Is weird
+This camera tho. This is definitely not the one we initially designed. What do we do?
+I accidentally did debug things and I cant get out. I'm scared help.
+The punch goes way too far. Is like double the size of the thing
+Gotta move away from the console print. Get it outta here. Can we just print the frame rate at the top left corner in debug draw mode?
+Found a wonderful bug - Both tanks punch but don't collide, throws an exception sometimes.
+How easy is it for me to add a new level / switch to a new level / change level properties (I want an ice level or something)

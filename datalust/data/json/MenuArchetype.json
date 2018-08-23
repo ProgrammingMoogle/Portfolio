@@ -1,0 +1,12 @@
+{
+  "Type": "Menu",
+  "Transform": {
+    "Orientation": 0,
+    "xPosition": 0,
+    "yPosition": 0.1,
+    "xScale": 0.20,
+    "yScale": 0.10
+  },
+  "MenuComponent": {
+  }
+}

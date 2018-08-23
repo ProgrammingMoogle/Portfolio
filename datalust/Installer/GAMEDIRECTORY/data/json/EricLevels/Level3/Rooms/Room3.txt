@@ -1,0 +1,25 @@
+Key - Room3
+W=PlatformArchetype,true
+2=EricLevels\Level3\roomswitchs\RoomSwitch3To2,false
+7=EricLevels\Level3\roomswitchs\RoomSwitch3To7,false
+4=EricLevels\Level3\roomswitchs\RoomSwitch3To4,false
+5=EricLevels\Level3\roomswitchs\RoomSwitch3To5,false
+D=EricLevels\Level3\Doors\Door2,false
+O=EricLevels\Level3\Doors\Door4,false
+R=EricLevels\Level3\Doors\Door5,false
+E=EricLevels\Level3\Enemies\FollowingEnemy1,false
+,
+LAYOUT: 18x10
+.........7..........
+.WWWWWWW.R..WWWWWWW.
+.WW.............WWW.
+.W.........E.....WW.
+..................W.
+2........E....E...D4
+....................
+...........E......W.
+.W...............WW.
+.W..............WWW.
+.W.O.WWWWWWWWWWWWWW.
+...5................
+,

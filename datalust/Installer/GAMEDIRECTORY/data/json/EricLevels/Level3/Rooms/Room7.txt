@@ -1,0 +1,23 @@
+Key - Room7
+W=PlatformArchetype,true
+3=EricLevels\Level3\roomswitchs\RoomSwitch7To3,false
+8=EricLevels\Level3\roomswitchs\RoomSwitch7To8,false
+D=EricLevels\Level3\Doors\Door2,false
+M=EricLevels\Level3\HealthPickups\HealthPickup1,false
+E=EricLevels\Level3\Enemies\FollowingEnemy1,false
+B=EricLevels\Level3\CoinDoors\CoinDoor3,false
+C=EricLevels\Level3\CoinDoors\CoinDoor4,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWW.
+W.M.M............W.
+W.....C....E.E.M.W.
+W.M.M..........M.W.
+WWWWWWW......E.M.D8
+WWWWWWW............
+W.M.M......WWWWWWW.
+W.....C....B..M.MW.
+W.M.M........M.M.W.
+WWWWWWW....WWWWWWW.
+........3..........
+,

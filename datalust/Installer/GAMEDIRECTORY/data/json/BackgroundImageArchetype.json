@@ -1,0 +1,23 @@
+{
+  "Type": "BackgroundImage",
+  "BackgroundImage": {
+    "ParallaxFactor": 1,
+    "FileName": "data/img/bg/bg_2.png",
+    "Alpha": 1.5,
+    "BlendAlpha": 1,
+    "Red": 1,
+    "Green": 1,
+    "Blue": 1,
+    "BlendMode": 1,
+    "Depth": -1,
+    "HorizontalRepeatMode": 1,
+    "VerticalRepeatMode": 1
+  },
+  "Transform": {
+    "Orientation": 0,
+    "xPosition": 0,
+    "yPosition": 0,
+    "xScale": 1,
+    "yScale": 1
+  }
+}

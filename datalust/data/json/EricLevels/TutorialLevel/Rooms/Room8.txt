@@ -1,0 +1,19 @@
+Key - Room8, 
+T=EricLevels\TutorialLevel\LevelText\Text8,false
+W=PlatformArchetype,true
+E=/EricLevels/TutorialLevel/Enemies/StationaryEnemyShootDown,false
+S=/EricLevels/TutorialLevel/roomswitchs/RoomSwitch8To6,false
+,
+LAYOUT: 18x10
+........S.........
+WWWWWWW....WWWWWWW
+W................W
+W................W
+W.....WWWWW......W
+W.....W...W......W
+W.....W.E.W......W
+W.....W...W......W
+W................W
+W.......T........W
+WWWWWWWWWWWWWWWWWW
+,

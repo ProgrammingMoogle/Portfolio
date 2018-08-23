@@ -1,0 +1,19 @@
+Key - Room1
+W=PlatformArchetype,true
+2=EricLevels\Level2\Doors\RedBlueDoor,false
+3=EricLevels\Level2\roomswitchs\RoomSwitch1To2,false
+M=HealthPickup,false
+E=EricLevels\Level2\Doors\RedBlueDoor,false
+,
+LAYOUT: 18x10
+WWWWWWWWWWWWWWWWWW.
+WW.....WWWW.....WW.
+W.......WW.......W.
+W..................
+W..P....E........23
+W............M.....
+W..................
+W.......WW.......W.
+WW.....WWWW.....WW.
+WWWWWWWWWWWWWWWWWW.
+,

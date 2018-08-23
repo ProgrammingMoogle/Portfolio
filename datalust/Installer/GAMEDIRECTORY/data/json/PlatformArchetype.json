@@ -1,0 +1,38 @@
+{
+  "Type": "Platform",
+ "Behaviors": {
+        "BehaviorsType": 3
+      },
+  "Transform": {
+    "Orientation": 0,
+    "xPosition": 0,
+    "yPosition": 0,
+    "xScale": 1,
+    "yScale": 1
+  },
+  "Sprite": {
+    "FileName": "",
+    "SpriteWidth": 100,
+    "SpriteHeight": 100,
+    "Alpha": 0.5,
+    "BlendAlpha": 1.2,
+    "Red": 0.5,
+    "Green": 0.5,
+    "Blue": 0.5,
+    "BlendMode": 0,
+    "Depth": 0,
+    "Frame": 0
+  },
+  "RigidBody": {
+      "Mass": 0,
+      "Force": false
+    },
+  "Colliders": {
+      "ColliderGroup" : 4,
+      "BoundType": 0,
+      "xHalfSize": 50,
+      "yHalfSize": 50,
+      "xOffset": 0,
+      "yOffset": 0
+    }
+}

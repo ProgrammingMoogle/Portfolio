@@ -1,0 +1,26 @@
+Key - Room3
+D=EricLevels\Level1\Doors\Door,false
+W=PlatformArchetype,true
+1=BlueDoorHorizontalArchetype,false
+H=Hole,true
+C=EricLevels\Level1\CoinDoors\CoinDoor1,false
+E=EricLevels\Level1\Enemies\FollowingEnemy1,false
+2=EricLevels\Level1\roomswitchs\RoomSwitch3To2,false
+4=EricLevels\Level1\roomswitchs\RoomSwitch3To4,false
+5=EricLevels\Level1\roomswitchs\RoomSwitch3To5,false
+6=EricLevels\Level1\roomswitchs\RoomSwitch3To6,false
+,
+LAYOUT: 18x10
+....2...............
+.WW..WWWWWWWWWWWWWW.
+.WW..............WW.
+.W................W.
+....................
+4D................D6
+.............E......
+...........E...E....
+.W...........E....W.
+.WW..............WW.
+.WWWWWW.C..WWWWWWWW.
+........5...........
+,
